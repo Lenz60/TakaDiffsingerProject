@@ -2,5 +2,8 @@
     "wav/1.wav": "1_1.wav.info.json",
     "wav/2.wav": "2_2.wav.info.json",
     "wav/3.wav": "3_3.wav.info.json",
-    "wav/7.wav": "7_7.wav.info.json"
+    "wav/7.wav": "7_7.wav.info.json",
+    "wav/4.wav": "4_4.wav.info.json",
+    "wav/5.wav": "5_5.wav.info.json",
+    "wav/6.wav": "6_6.wav.info.json"
 }
