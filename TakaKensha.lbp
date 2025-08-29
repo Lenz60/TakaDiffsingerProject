@@ -9084,7 +9084,7 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "br",
+                    "name": "AP",
                     "start": 8041.723,
                     "end": 8387.302,
                     "points": [
@@ -9100,9 +9100,9 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "AP",
+                    "name": "SP",
                     "start": 8387.302,
-                    "end": 8449.887,
+                    "end": 8467.12,
                     "points": [
                     ],
                     "extras": [
@@ -9117,7 +9117,7 @@
                 {
                     "sample": "3.wav",
                     "name": "f",
-                    "start": 8449.887,
+                    "start": 8467.12,
                     "end": 8565.986,
                     "points": [
                     ],
@@ -9660,7 +9660,7 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "br",
+                    "name": "AP",
                     "start": 13723.006,
                     "end": 14000.0,
                     "points": [
@@ -9676,9 +9676,9 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "AP",
+                    "name": "SP",
                     "start": 14000.0,
-                    "end": 14077.098,
+                    "end": 14089.796,
                     "points": [
                     ],
                     "extras": [
@@ -9693,7 +9693,7 @@
                 {
                     "sample": "3.wav",
                     "name": "t",
-                    "start": 14077.098,
+                    "start": 14089.796,
                     "end": 14143.821,
                     "points": [
                     ],
@@ -9820,7 +9820,7 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "br",
+                    "name": "AP",
                     "start": 15748.893,
                     "end": 15996.372,
                     "points": [
@@ -10188,7 +10188,7 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "br",
+                    "name": "AP",
                     "start": 19663.492,
                     "end": 20078.912,
                     "points": [
@@ -10206,7 +10206,7 @@
                     "sample": "3.wav",
                     "name": "SP",
                     "start": 20078.912,
-                    "end": 20163.625,
+                    "end": 20185.033,
                     "points": [
                     ],
                     "extras": [
@@ -10221,7 +10221,7 @@
                 {
                     "sample": "3.wav",
                     "name": "y",
-                    "start": 20163.625,
+                    "start": 20185.033,
                     "end": 20328.344,
                     "points": [
                     ],
@@ -10460,7 +10460,7 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "br",
+                    "name": "AP",
                     "start": 23704.65,
                     "end": 24039.91,
                     "points": [
@@ -10764,7 +10764,7 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "br",
+                    "name": "AP",
                     "start": 27493.877,
                     "end": 27726.076,
                     "points": [
@@ -11068,7 +11068,7 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "br",
+                    "name": "AP",
                     "start": 31477.55,
                     "end": 31794.104,
                     "points": [
@@ -11356,7 +11356,7 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "br",
+                    "name": "AP",
                     "start": 35514.742,
                     "end": 35814.965,
                     "points": [
@@ -11372,9 +11372,9 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "AP",
+                    "name": "SP",
                     "start": 35814.965,
-                    "end": 35893.875,
+                    "end": 35931.973,
                     "points": [
                     ],
                     "extras": [
@@ -11389,7 +11389,7 @@
                 {
                     "sample": "3.wav",
                     "name": "ch",
-                    "start": 35893.875,
+                    "start": 35931.973,
                     "end": 36009.977,
                     "points": [
                     ],
@@ -11708,9 +11708,9 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "br",
+                    "name": "AP",
                     "start": 39256.234,
-                    "end": 39600.906,
+                    "end": 39611.793,
                     "points": [
                     ],
                     "extras": [
@@ -11725,8 +11725,8 @@
                 {
                     "sample": "3.wav",
                     "name": "SP",
-                    "start": 39600.906,
-                    "end": 39783.22,
+                    "start": 39611.793,
+                    "end": 39795.01,
                     "points": [
                     ],
                     "extras": [
@@ -11741,7 +11741,7 @@
                 {
                     "sample": "3.wav",
                     "name": "a",
-                    "start": 39783.22,
+                    "start": 39795.01,
                     "end": 40119.727,
                     "points": [
                     ],
@@ -12044,7 +12044,7 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "br",
+                    "name": "AP",
                     "start": 43283.445,
                     "end": 43535.6,
                     "points": [
@@ -12380,7 +12380,7 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "br",
+                    "name": "AP",
                     "start": 47142.32,
                     "end": 47463.945,
                     "points": [
@@ -12398,7 +12398,7 @@
                     "sample": "3.wav",
                     "name": "SP",
                     "start": 47463.945,
-                    "end": 47503.85,
+                    "end": 47514.74,
                     "points": [
                     ],
                     "extras": [
@@ -12413,7 +12413,7 @@
                 {
                     "sample": "3.wav",
                     "name": "s",
-                    "start": 47503.85,
+                    "start": 47514.74,
                     "end": 47709.75,
                     "points": [
                     ],
@@ -12700,7 +12700,7 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "br",
+                    "name": "AP",
                     "start": 51310.656,
                     "end": 51574.6,
                     "points": [
@@ -13404,7 +13404,7 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "br",
+                    "name": "AP",
                     "start": 58945.125,
                     "end": 59187.664,
                     "points": [
@@ -14044,7 +14044,7 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "br",
+                    "name": "AP",
                     "start": 64734.332,
                     "end": 64972.336,
                     "points": [
@@ -14236,7 +14236,7 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "br",
+                    "name": "AP",
                     "start": 67333.336,
                     "end": 67814.97,
                     "points": [
@@ -14268,7 +14268,7 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "br",
+                    "name": "AP",
                     "start": 73369.61,
                     "end": 73637.19,
                     "points": [
@@ -14684,7 +14684,7 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "br",
+                    "name": "AP",
                     "start": 77264.4,
                     "end": 77535.6,
                     "points": [
@@ -15068,7 +15068,7 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "br",
+                    "name": "AP",
                     "start": 81202.73,
                     "end": 81443.086,
                     "points": [
@@ -19819,7 +19819,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 686,
+            "currentIndex": 393,
             "extras": {
             },
             "rawFilePath": "lab\\3.lab",
