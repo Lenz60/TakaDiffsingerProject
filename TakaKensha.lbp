@@ -19865,7 +19865,7 @@
                     "sample": "4.wav",
                     "name": "u",
                     "start": 2143.3105,
-                    "end": 2541.4966,
+                    "end": 2497.0522,
                     "points": [
                     ],
                     "extras": [
@@ -19879,9 +19879,9 @@
                 },
                 {
                     "sample": "4.wav",
-                    "name": "SP",
-                    "start": 2541.4966,
-                    "end": 2702.2324,
+                    "name": "w",
+                    "start": 2497.0522,
+                    "end": 2556.009,
                     "points": [
                     ],
                     "extras": [
@@ -19896,7 +19896,7 @@
                 {
                     "sample": "4.wav",
                     "name": "i",
-                    "start": 2702.2324,
+                    "start": 2556.009,
                     "end": 3229.932,
                     "points": [
                     ],
@@ -19911,7 +19911,7 @@
                 },
                 {
                     "sample": "4.wav",
-                    "name": "e",
+                    "name": "AP",
                     "start": 3229.932,
                     "end": 3430.7737,
                     "points": [
@@ -19927,623 +19927,15 @@
                 },
                 {
                     "sample": "4.wav",
-                    "name": "N",
-                    "start": 3430.7737,
-                    "end": 3433.6592,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "n",
-                    "start": 3433.6592,
-                    "end": 3491.5586,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "o",
-                    "start": 3491.5586,
-                    "end": 3805.1406,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "a",
-                    "start": 3805.1406,
-                    "end": 4185.3013,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "r",
-                    "start": 4185.3013,
-                    "end": 4199.9214,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "u",
-                    "start": 4199.9214,
-                    "end": 4472.739,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "k",
-                    "start": 4472.739,
-                    "end": 4548.241,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "a",
-                    "start": 4548.241,
-                    "end": 4905.1953,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "u",
-                    "start": 4905.1953,
-                    "end": 5192.558,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "e",
-                    "start": 5192.558,
-                    "end": 5889.1553,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "o",
-                    "start": 5889.1553,
-                    "end": 6498.689,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "t",
-                    "start": 6498.689,
-                    "end": 6542.1904,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "o",
-                    "start": 6542.1904,
-                    "end": 7517.447,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "N",
-                    "start": 7517.447,
-                    "end": 7772.8247,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "d",
-                    "start": 7772.8247,
-                    "end": 7816.3667,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "e",
-                    "start": 7816.3667,
-                    "end": 8443.346,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "y",
-                    "start": 8443.346,
-                    "end": 8582.793,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "u",
-                    "start": 8582.793,
-                    "end": 9128.341,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "k",
-                    "start": 9128.341,
-                    "end": 9241.474,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "u",
-                    "start": 9241.474,
-                    "end": 9700.128,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "SP",
-                    "start": 9700.128,
-                    "end": 11006.258,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "AP",
-                    "start": 11006.258,
-                    "end": 11366.168,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "SP",
-                    "start": 11366.168,
-                    "end": 11488.054,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "u",
-                    "start": 11488.054,
-                    "end": 11847.899,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "r",
-                    "start": 11847.899,
-                    "end": 11879.945,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "a",
-                    "start": 11879.945,
-                    "end": 12730.347,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "g",
-                    "start": 12730.347,
-                    "end": 12863.852,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "a",
-                    "start": 12863.852,
-                    "end": 13188.891,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "e",
-                    "start": 13188.891,
-                    "end": 13789.716,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
                     "name": "cl",
-                    "start": 13789.716,
-                    "end": 13792.669,
+                    "start": 3430.7737,
+                    "end": 3510.204,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "t",
-                    "start": 13792.669,
-                    "end": 13839.068,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "a",
-                    "start": 13839.068,
-                    "end": 14138.052,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "t",
-                    "start": 14138.052,
-                    "end": 14184.431,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "o",
-                    "start": 14184.431,
-                    "end": 14509.56,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "N",
-                    "start": 14509.56,
-                    "end": 14825.931,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "b",
-                    "start": 14825.931,
-                    "end": 14863.629,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "o",
-                    "start": 14863.629,
-                    "end": 15261.319,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "n",
-                    "start": 15261.319,
-                    "end": 15264.224,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "o",
-                    "start": 15264.224,
-                    "end": 15362.905,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -20552,46 +19944,14 @@
                 {
                     "sample": "4.wav",
                     "name": "h",
-                    "start": 15362.905,
-                    "end": 15371.606,
+                    "start": 3510.204,
+                    "end": 3560.9978,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "a",
-                    "start": 15371.606,
-                    "end": 15717.02,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "n",
-                    "start": 15717.02,
-                    "end": 15824.401,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -20600,14 +19960,14 @@
                 {
                     "sample": "4.wav",
                     "name": "e",
-                    "start": 15824.401,
-                    "end": 16410.7,
+                    "start": 3560.9978,
+                    "end": 3883.9001,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -20615,15 +19975,15 @@
                 },
                 {
                     "sample": "4.wav",
-                    "name": "g",
-                    "start": 16410.7,
-                    "end": 16605.07,
+                    "name": "i",
+                    "start": 3883.9001,
+                    "end": 4146.939,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -20631,15 +19991,15 @@
                 },
                 {
                     "sample": "4.wav",
-                    "name": "a",
-                    "start": 16605.07,
-                    "end": 17046.35,
+                    "name": "s",
+                    "start": 4146.939,
+                    "end": 4300.2266,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -20647,175 +20007,15 @@
                 },
                 {
                     "sample": "4.wav",
-                    "name": "j",
-                    "start": 17046.35,
-                    "end": 18416.32,
+                    "name": "e",
+                    "start": 4300.2266,
+                    "end": 4566.8936,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "a",
-                    "start": 18416.32,
-                    "end": 19107.117,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "k",
-                    "start": 19107.117,
-                    "end": 19179.715,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "u",
-                    "start": 19179.715,
-                    "end": 19182.56,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "g",
-                    "start": 19182.56,
-                    "end": 19185.418,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "a",
-                    "start": 19185.418,
-                    "end": 21214.281,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "AP",
-                    "start": 21214.281,
-                    "end": 21815.154,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "ts",
-                    "start": 21815.154,
-                    "end": 21818.06,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "u",
-                    "start": 21818.06,
-                    "end": 21820.941,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "k",
-                    "start": 21820.941,
-                    "end": 21884.814,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "a",
-                    "start": 21884.814,
-                    "end": 22175.059,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -20824,14 +20024,14 @@
                 {
                     "sample": "4.wav",
                     "name": "N",
-                    "start": 22175.059,
-                    "end": 22456.475,
+                    "start": 4566.8936,
+                    "end": 4742.857,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -20839,95 +20039,15 @@
                 },
                 {
                     "sample": "4.wav",
-                    "name": "g",
-                    "start": 22456.475,
-                    "end": 22459.506,
+                    "name": "n",
+                    "start": 4742.857,
+                    "end": 4919.728,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "a",
-                    "start": 22459.506,
-                    "end": 22854.176,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "e",
-                    "start": 22854.176,
-                    "end": 23112.568,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "t",
-                    "start": 23112.568,
-                    "end": 23190.945,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "a",
-                    "start": 23190.945,
-                    "end": 23455.014,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "k",
-                    "start": 23455.014,
-                    "end": 23524.715,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -20936,14 +20056,14 @@
                 {
                     "sample": "4.wav",
                     "name": "o",
-                    "start": 23524.715,
-                    "end": 23814.967,
+                    "start": 4919.728,
+                    "end": 5212.698,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -20951,47 +20071,15 @@
                 },
                 {
                     "sample": "4.wav",
-                    "name": "t",
-                    "start": 23814.967,
-                    "end": 23861.367,
+                    "name": "h",
+                    "start": 5212.698,
+                    "end": 5268.0273,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "o",
-                    "start": 23861.367,
-                    "end": 24444.812,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "w",
-                    "start": 24444.812,
-                    "end": 24569.574,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -21000,14 +20088,14 @@
                 {
                     "sample": "4.wav",
                     "name": "a",
-                    "start": 24569.574,
-                    "end": 25478.193,
+                    "start": 5268.0273,
+                    "end": 5613.6055,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -21016,78 +20104,14 @@
                 {
                     "sample": "4.wav",
                     "name": "r",
-                    "start": 25478.193,
-                    "end": 25521.633,
+                    "start": 5613.6055,
+                    "end": 5647.1655,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "i",
-                    "start": 25521.633,
-                    "end": 25779.889,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "m",
-                    "start": 25779.889,
-                    "end": 25840.852,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "a",
-                    "start": 25840.852,
-                    "end": 26087.61,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "s",
-                    "start": 26087.61,
-                    "end": 26195.037,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -21096,14 +20120,30 @@
                 {
                     "sample": "4.wav",
                     "name": "u",
-                    "start": 26195.037,
-                    "end": 26395.27,
+                    "start": 5647.1655,
+                    "end": 5889.1553,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "cl",
+                    "start": 5889.1553,
+                    "end": 5957.3696,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -21112,14 +20152,14 @@
                 {
                     "sample": "4.wav",
                     "name": "k",
-                    "start": 26395.27,
-                    "end": 26517.162,
+                    "start": 5957.3696,
+                    "end": 5986.3945,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -21128,14 +20168,14 @@
                 {
                     "sample": "4.wav",
                     "name": "a",
-                    "start": 26517.162,
-                    "end": 26798.717,
+                    "start": 5986.3945,
+                    "end": 6339.229,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -21143,191 +20183,15 @@
                 },
                 {
                     "sample": "4.wav",
-                    "name": "AP",
-                    "start": 26798.717,
-                    "end": 27152.84,
+                    "name": "u",
+                    "start": 6339.229,
+                    "end": 6643.084,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "o",
-                    "start": 27152.84,
-                    "end": 27414.053,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "z",
-                    "start": 27414.053,
-                    "end": 27515.652,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "o",
-                    "start": 27515.652,
-                    "end": 27712.996,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "m",
-                    "start": 27712.996,
-                    "end": 27814.549,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "a",
-                    "start": 27814.549,
-                    "end": 28003.305,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "sh",
-                    "start": 28003.305,
-                    "end": 28174.521,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "i",
-                    "start": 28174.521,
-                    "end": 28357.287,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "s",
-                    "start": 28357.287,
-                    "end": 28502.463,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "a",
-                    "start": 28502.463,
-                    "end": 28807.256,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "t",
-                    "start": 28807.256,
-                    "end": 28833.385,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "o",
-                    "start": 28833.385,
-                    "end": 29059.773,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -21336,14 +20200,14 @@
                 {
                     "sample": "4.wav",
                     "name": "w",
-                    "start": 29059.773,
-                    "end": 29216.508,
+                    "start": 6643.084,
+                    "end": 6697.506,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -21351,15 +20215,15 @@
                 },
                 {
                     "sample": "4.wav",
-                    "name": "a",
-                    "start": 29216.508,
-                    "end": 29463.17,
+                    "name": "e",
+                    "start": 6697.506,
+                    "end": 7289.796,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -21367,15 +20231,15 @@
                 },
                 {
                     "sample": "4.wav",
-                    "name": "SP",
-                    "start": 29463.17,
-                    "end": 29582.223,
+                    "name": "y",
+                    "start": 7289.796,
+                    "end": 7346.0317,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -21383,15 +20247,15 @@
                 },
                 {
                     "sample": "4.wav",
-                    "name": "AP",
-                    "start": 29582.223,
-                    "end": 29686.713,
+                    "name": "o",
+                    "start": 7346.0317,
+                    "end": 7886.621,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -21399,159 +20263,15 @@
                 },
                 {
                     "sample": "4.wav",
-                    "name": "SP",
-                    "start": 29686.713,
-                    "end": 29852.104,
+                    "name": "cl",
+                    "start": 7886.621,
+                    "end": 7951.0205,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "u",
-                    "start": 29852.104,
-                    "end": 30371.715,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "ts",
-                    "start": 30371.715,
-                    "end": 30426.846,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "u",
-                    "start": 30426.846,
-                    "end": 30429.69,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "k",
-                    "start": 30429.69,
-                    "end": 30525.438,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "u",
-                    "start": 30525.438,
-                    "end": 30664.861,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "sh",
-                    "start": 30664.861,
-                    "end": 30859.316,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "i",
-                    "start": 30859.316,
-                    "end": 31082.799,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "s",
-                    "start": 31082.799,
-                    "end": 31181.309,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "4.wav",
-                    "name": "a",
-                    "start": 31181.309,
-                    "end": 31474.594,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -21560,7 +20280,1511 @@
                 {
                     "sample": "4.wav",
                     "name": "t",
-                    "start": 31474.594,
+                    "start": 7951.0205,
+                    "end": 7980.0454,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "o",
+                    "start": 7980.0454,
+                    "end": 8919.728,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "N",
+                    "start": 8919.728,
+                    "end": 9199.093,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "d",
+                    "start": 9199.093,
+                    "end": 9244.444,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "e",
+                    "start": 9244.444,
+                    "end": 9880.272,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "y",
+                    "start": 9880.272,
+                    "end": 10033.561,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "u",
+                    "start": 10033.561,
+                    "end": 10576.871,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "cl",
+                    "start": 10576.871,
+                    "end": 10638.549,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "k",
+                    "start": 10638.549,
+                    "end": 10682.994,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "u",
+                    "start": 10682.994,
+                    "end": 12294.784,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "AP",
+                    "start": 12294.784,
+                    "end": 12883.446,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "h",
+                    "start": 12883.446,
+                    "end": 12972.336,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "u",
+                    "start": 12972.336,
+                    "end": 13285.261,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "r",
+                    "start": 13285.261,
+                    "end": 13315.192,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "a",
+                    "start": 13315.192,
+                    "end": 14165.986,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "g",
+                    "start": 14165.986,
+                    "end": 14331.973,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "a",
+                    "start": 14331.973,
+                    "end": 14595.918,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "e",
+                    "start": 14595.918,
+                    "end": 15171.428,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "cl",
+                    "start": 15171.428,
+                    "end": 15204.081,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "t",
+                    "start": 15204.081,
+                    "end": 15270.748,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "a",
+                    "start": 15270.748,
+                    "end": 15507.483,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "cl",
+                    "start": 15507.483,
+                    "end": 15579.591,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "t",
+                    "start": 15579.591,
+                    "end": 15621.769,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "o",
+                    "start": 15621.769,
+                    "end": 15925.171,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "N",
+                    "start": 15925.171,
+                    "end": 16277.551,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "b",
+                    "start": 16277.551,
+                    "end": 16303.8545,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "o",
+                    "start": 16303.8545,
+                    "end": 16610.432,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "n",
+                    "start": 16610.432,
+                    "end": 16634.92,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "o",
+                    "start": 16634.92,
+                    "end": 16905.215,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "a",
+                    "start": 16905.215,
+                    "end": 17145.578,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "N",
+                    "start": 17145.578,
+                    "end": 17215.42,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "n",
+                    "start": 17215.42,
+                    "end": 17276.191,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "e",
+                    "start": 17276.191,
+                    "end": 17849.434,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "cl",
+                    "start": 17849.434,
+                    "end": 17893.877,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "g",
+                    "start": 17893.877,
+                    "end": 17942.857,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "a",
+                    "start": 17942.857,
+                    "end": 18467.121,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "y",
+                    "start": 18467.121,
+                    "end": 18595.012,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "o",
+                    "start": 18595.012,
+                    "end": 19871.201,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "w",
+                    "start": 19871.201,
+                    "end": 19951.02,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "a",
+                    "start": 19951.02,
+                    "end": 20540.59,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "k",
+                    "start": 20540.59,
+                    "end": 20624.037,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "a",
+                    "start": 20624.037,
+                    "end": 21136.508,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "cl",
+                    "start": 21136.508,
+                    "end": 21176.418,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "ts",
+                    "start": 21176.418,
+                    "end": 21301.588,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "u",
+                    "start": 21301.588,
+                    "end": 22668.48,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "SP",
+                    "start": 22668.48,
+                    "end": 22704.762,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "AP",
+                    "start": 22704.762,
+                    "end": 23207.256,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "SP",
+                    "start": 23207.256,
+                    "end": 23271.656,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "k",
+                    "start": 23271.656,
+                    "end": 23317.006,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "a",
+                    "start": 23317.006,
+                    "end": 23618.14,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "N",
+                    "start": 23618.14,
+                    "end": 23892.97,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "g",
+                    "start": 23892.97,
+                    "end": 23923.807,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "a",
+                    "start": 23923.807,
+                    "end": 24240.363,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "e",
+                    "start": 24240.363,
+                    "end": 24510.658,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "cl",
+                    "start": 24510.658,
+                    "end": 24598.639,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "t",
+                    "start": 24598.639,
+                    "end": 24627.664,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "a",
+                    "start": 24627.664,
+                    "end": 24856.236,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "cl",
+                    "start": 24856.236,
+                    "end": 24929.703,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "k",
+                    "start": 24929.703,
+                    "end": 24962.357,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "o",
+                    "start": 24962.357,
+                    "end": 25165.531,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "cl",
+                    "start": 25165.531,
+                    "end": 25267.12,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "t",
+                    "start": 25267.12,
+                    "end": 25297.96,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "o",
+                    "start": 25297.96,
+                    "end": 25916.553,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "w",
+                    "start": 25916.553,
+                    "end": 25999.998,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "a",
+                    "start": 25999.998,
+                    "end": 26921.541,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "r",
+                    "start": 26921.541,
+                    "end": 26955.102,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "i",
+                    "start": 26955.102,
+                    "end": 27211.79,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "m",
+                    "start": 27211.79,
+                    "end": 27281.633,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "z",
+                    "start": 27281.633,
+                    "end": 27515.652,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "u",
+                    "start": 27515.652,
+                    "end": 27628.117,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "u",
+                    "start": 27628.117,
+                    "end": 27836.734,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "cl",
+                    "start": 27836.734,
+                    "end": 27913.834,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "k",
+                    "start": 27913.834,
+                    "end": 27951.926,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "a",
+                    "start": 27951.926,
+                    "end": 28207.71,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "AP",
+                    "start": 28207.71,
+                    "end": 28546.031,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "SP",
+                    "start": 28546.031,
+                    "end": 28587.756,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "o",
+                    "start": 28587.756,
+                    "end": 28832.652,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "z",
+                    "start": 28832.652,
+                    "end": 28948.752,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "o",
+                    "start": 28948.752,
+                    "end": 29133.787,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "m",
+                    "start": 29133.787,
+                    "end": 29243.535,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "a",
+                    "start": 29243.535,
+                    "end": 29443.99,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "sh",
+                    "start": 29443.99,
+                    "end": 29600.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "i",
+                    "start": 29600.0,
+                    "end": 29801.361,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "sh",
+                    "start": 29801.361,
+                    "end": 29941.043,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "a",
+                    "start": 29941.043,
+                    "end": 30148.754,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "cl",
+                    "start": 30148.754,
+                    "end": 30249.434,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "t",
+                    "start": 30249.434,
+                    "end": 30273.922,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "o",
+                    "start": 30273.922,
+                    "end": 30526.984,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "w",
+                    "start": 30526.984,
+                    "end": 30615.873,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "a",
+                    "start": 30615.873,
+                    "end": 30878.912,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "AP",
+                    "start": 30878.912,
+                    "end": 31190.023,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "SP",
+                    "start": 31190.023,
+                    "end": 31260.77,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": true,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "s",
+                    "start": 31260.77,
+                    "end": 31297.05,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "a",
+                    "start": 31297.05,
+                    "end": 31474.596,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "4.wav",
+                    "name": "t",
+                    "start": 31474.596,
                     "end": 31515.215,
                     "points": [
                     ],
@@ -22982,7 +23206,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 196,
+            "currentIndex": 119,
             "extras": {
             },
             "rawFilePath": "lab\\4.lab",
@@ -25857,7 +26081,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 178,
+            "currentIndex": 0,
             "extras": {
             },
             "rawFilePath": "lab\\5.lab",
@@ -25887,7 +26111,7 @@
                     "sample": "6.wav",
                     "name": "i",
                     "start": 1287.0748,
-                    "end": 2501.9526,
+                    "end": 1607.2562,
                     "points": [
                     ],
                     "extras": [
@@ -25902,14 +26126,14 @@
                 {
                     "sample": "6.wav",
                     "name": "d",
-                    "start": 2501.9526,
+                    "start": 1607.2562,
                     "end": 2574.4827,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -42078,7 +42302,7 @@
             "entryFilter": null
         }
     ],
-    "currentModuleIndex": 1,
+    "currentModuleIndex": 3,
     "autoExport": false,
     "entryFilter": null
 }
