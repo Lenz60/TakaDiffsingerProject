@@ -2,8 +2,8 @@
     "version": 4,
     "rootSampleDirectory": "J:\\utat\\DiffsingerProject\\TakaComplete\\Vlab",
     "workingDirectory": "",
-    "projectName": "VCVConfident",
-    "cacheDirectory": "VCVConfident.lbp.caches",
+    "projectName": "VCVC4",
+    "cacheDirectory": "VCVC4.lbp.caches",
     "labelerConf": {
         "name": "nnsvs-singer.default",
         "version": 13,
@@ -259,7 +259,7 @@
                     "sample": "_ああいあうえあR.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 4999.5464,
+                    "end": 0.0,
                     "points": [
                     ],
                     "extras": [
@@ -269,7 +269,7 @@
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": false
+                    "needSync": true
                 }
             ],
             "currentIndex": 0,
@@ -286,7 +286,7 @@
                     "sample": "_いいうあえいえ.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 4999.5464,
+                    "end": 0.0,
                     "points": [
                     ],
                     "extras": [
@@ -296,7 +296,7 @@
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": false
+                    "needSync": true
                 }
             ],
             "currentIndex": 0,
@@ -2952,33 +2952,6 @@
             "entryFilter": null
         },
         {
-            "name": "_びびびゅびゃびぇんびぇ2",
-            "sampleDirectory": "wav",
-            "entries": [
-                {
-                    "sample": "_びびびゅびゃびぇんびぇ2.wav",
-                    "name": "pau",
-                    "start": 0.0,
-                    "end": 0.0,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": true
-                }
-            ],
-            "currentIndex": 0,
-            "extras": {
-            },
-            "rawFilePath": "lab\\_びびびゅびゃびぇんびぇ2.lab",
-            "entryFilter": null
-        },
-        {
             "name": "_びびぶばべびべ",
             "sampleDirectory": "wav",
             "entries": [
@@ -5001,6 +4974,60 @@
             "extras": {
             },
             "rawFilePath": "lab\\_んりんれんろ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "br1",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "br1.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\br1.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "br2",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "br2.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\br2.lab",
             "entryFilter": null
         }
     ],
