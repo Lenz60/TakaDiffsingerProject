@@ -1,0 +1,5010 @@
+{
+    "version": 4,
+    "rootSampleDirectory": "J:\\utat\\DiffsingerProject\\TakaComplete\\Vlab",
+    "workingDirectory": "",
+    "projectName": "VCVConfident",
+    "cacheDirectory": "VCVConfident.lbp.caches",
+    "labelerConf": {
+        "name": "nnsvs-singer.default",
+        "version": 13,
+        "serialVersion": 2,
+        "singleFile": false,
+        "extension": "lab",
+        "defaultInputFilePath": null,
+        "displayedName": {
+            "en": "NNSVS singer labeler",
+            "zh": "NNSVS singer 标注器",
+            "ja": "NNSVS singer ラベラー",
+            "ko": "NNSVS singer 라벨러"
+        },
+        "author": "sdercolin",
+        "email": "sder.colin@gmail.com",
+        "description": {
+            "en": "Default labeler for NNSVS/ENUNU singer. Multiple lab files are included with the corresponding wav files. Please prepare a folder with a `lab` folder and a `wav` folder inside and set it as the sample directory.",
+            "zh": "NNSVS/ENUNU singer 的默认标注器。该标注器将可以处理多个 lab 文件，每个 lab 文件对应一个 wav 文件。请准备一个包含 `lab` 文件夹和 `wav` 文件夹的文件夹，并将其设置为采样目录。",
+            "ja": "NNSVS/ENUNU singer のデフォルトラベラーです。複数の lab ファイルと wav　ファイルを処理できます。`lab` フォルダと `wav` フォルダを含むフォルダを用意し、サンプルディレクトリとして設定してください。",
+            "ko": "기본 내장된 NNSVS/ENUNU 가수용 라벨러에요. 하나의 wav 파일에 속하는 여러 개의 lab 파일을 편집할 수 있어요. 올바른 `lab`폴더와 `wav`폴더가 포함된 경로를 샘플 폴더로 설정해 주세요. "
+        },
+        "website": "https://github.com/sdercolin/vlabeler/tree/main/resources/common/labelers",
+        "categoryTag": "NNSVS",
+        "displayOrder": 0,
+        "continuous": true,
+        "allowSameNameEntry": true,
+        "defaultEntryName": "pau",
+        "defaultValues": [
+            0.0,
+            0.0
+        ],
+        "defaultExtras": null,
+        "fields": [
+        ],
+        "extraFieldNames": null,
+        "extraFields": [
+        ],
+        "moduleExtraFields": [
+        ],
+        "lockedDrag": {
+            "useDragBase": false,
+            "useStart": false
+        },
+        "overflowBeforeStart": "Error",
+        "overflowAfterEnd": "Error",
+        "postEditNextTrigger": {
+            "useStart": false,
+            "useEnd": false
+        },
+        "postEditDoneTrigger": {
+            "useStart": false,
+            "useEnd": false
+        },
+        "decimalDigit": 4,
+        "entrySimilarityWeights": {
+            "name": 0.0,
+            "sample": 0.5,
+            "start": 0.25,
+            "end": 0.25,
+            "points": [
+            ],
+            "extras": [
+            ],
+            "tag": 0.0,
+            "threshold": 0.75
+        },
+        "properties": [
+            {
+                "name": "start",
+                "displayedName": "Start",
+                "valueGetter": [
+                    "value = entry.start"
+                ],
+                "valueSetter": [
+                    "entry.start = value"
+                ],
+                "shortcutIndex": 0
+            },
+            {
+                "name": "end",
+                "displayedName": "End",
+                "valueGetter": [
+                    "value = entry.end"
+                ],
+                "valueSetter": [
+                    "entry.end = value"
+                ],
+                "shortcutIndex": 1
+            }
+        ],
+        "parser": {
+            "scope": "Entry",
+            "defaultEncoding": "UTF-8",
+            "extractionPattern": "(.*) (.*) (.*)",
+            "variableNames": [
+                "left",
+                "right",
+                "name"
+            ],
+            "scripts": [
+                "start = parseFloat(left) / 10000",
+                "end = parseFloat(right) / 10000",
+                "sample = sampleFileNames[0]",
+                "entry = new Entry(sample, name, start, end, [], [])",
+                ""
+            ]
+        },
+        "writer": {
+            "scope": "Entry",
+            "format": null,
+            "scripts": [
+                "output = (start * 10000).toFixed() + \" \" + (end * 10000).toFixed() + \" \" + name",
+                ""
+            ]
+        },
+        "parameters": [
+            {
+                "parameter": {
+                    "type": "string",
+                    "name": "wavFolderName",
+                    "label": {
+                        "en": "wav folder name",
+                        "zh": "wav 文件夹名称",
+                        "ja": "wav フォルダ名",
+                        "ko": "wav 폴더의 이름"
+                    },
+                    "description": null,
+                    "enableIf": null,
+                    "defaultValue": "wav",
+                    "multiLine": false,
+                    "optional": false
+                },
+                "injector": null,
+                "changeable": false
+            },
+            {
+                "parameter": {
+                    "type": "string",
+                    "name": "labFolderName",
+                    "label": {
+                        "en": "lab folder name",
+                        "zh": "lab 文件夹名称",
+                        "ja": "lab フォルダ名",
+                        "ko": "lab 폴더의 이름"
+                    },
+                    "description": null,
+                    "enableIf": null,
+                    "defaultValue": "lab",
+                    "multiLine": false,
+                    "optional": false
+                },
+                "injector": null,
+                "changeable": false
+            },
+            {
+                "parameter": {
+                    "type": "string",
+                    "name": "defaultEntryName",
+                    "label": {
+                        "en": "Default entry name",
+                        "zh": "默认条目名称",
+                        "ja": "デフォルトエントリ名",
+                        "ko": "기본 엔트리 이름"
+                    },
+                    "description": null,
+                    "enableIf": null,
+                    "defaultValue": "pau",
+                    "multiLine": false,
+                    "optional": true
+                },
+                "injector": [
+                    "if (value && value !== \"\") {",
+                    "    labeler.defaultEntryName = value",
+                    "}",
+                    ""
+                ],
+                "changeable": true
+            }
+        ],
+        "projectConstructor": {
+            "scripts": [
+                "let wavFolderName = params[\"wavFolderName\"]",
+                "let labFolderName = params[\"labFolderName\"]",
+                "// `root` is the input File object indicating the root sample directory.",
+                "let wavFolder = root.resolve(wavFolderName)",
+                "let labFolder = root.resolve(labFolderName)",
+                "let modules = []",
+                "wavFolder.listChildFiles().filter(f => f.getExtension() === \"wav\").forEach(wavFile => {",
+                "    let name = wavFile.getNameWithoutExtension()",
+                "    let labFile = labFolder.resolve(name + \".lab\")",
+                "    modules.push(",
+                "            new ModuleDefinition(",
+                "                    name,",
+                "                    wavFolder.getAbsolutePath(),",
+                "                    [wavFile.getName()],",
+                "                    [labFile.getAbsolutePath()],",
+                "                    labFile.getAbsolutePath()",
+                "            )",
+                "    )",
+                "})",
+                "if (modules.length === 0) {",
+                "    error({",
+                "        en: 'No wav files found in the wav folder, please check the wav folder name in labeler settings.',",
+                "        zh: 'wav 文件夹中没有找到 wav 文件，请检查标注器设置中的 wav 文件夹名称。',",
+                "        ja: 'wav フォルダに wav ファイルが見つかりませんでした。ラベラーの設定で wav フォルダ名を確認してください。',",
+                "        ko: 'wav폴더에 wav가 없습니다. 라벨러 설정에서 폴더 이름이 올바르게 되어 있는지 확인해 주세요.'",
+                "    })",
+                "}",
+                ""
+            ]
+        },
+        "quickProjectBuilders": [
+        ],
+        "resourceFiles": [
+        ]
+    },
+    "labelerParams": null,
+    "encoding": "UTF-8",
+    "multipleEditMode": true,
+    "modules": [
+        {
+            "name": "_ああいあうえあ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ああいあうえあ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 5062.041,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ああいあうえあ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ああいあうえあR",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ああいあうえあR.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 4999.5464,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ああいあうえあR.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_いいうあえいえ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_いいうあえいえ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 4999.5464,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_いいうあえいえ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_いいうあえいえR",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_いいうあえいえR.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_いいうあえいえR.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_いいゆやいぇいいぇ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_いいゆやいぇいいぇ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_いいゆやいぇいいぇ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_いぇいぇゆよいぇよよ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_いぇいぇゆよいぇよよ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_いぇいぇゆよいぇよよ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_うぃうぃうわうぇうぃうぇ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_うぃうぃうわうぇうぃうぇ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_うぃうぃうわうぇうぃうぇ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_うういおあおい",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_うういおあおい.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_うういおあおい.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_うういおあおいR",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_うういおあおいR.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_うういおあおいR.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_うううぃうぉわうぉうぃ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_うううぃうぉわうぉうぃ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_うううぃうぉわうぉうぃ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_うぇうぇううぉうぇうぉうぉ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_うぇうぇううぉうぇうぉうぉ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_うぇうぇううぉうぇうぉうぉ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_うぉうんわんう",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_うぉうんわんう.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_うぉうんわんう.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ええうおえおお",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ええうおえおお.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ええうおえおお.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ええうおえおおR",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ええうおえおおR.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ええうおえおおR.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_おうんあんんう",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_おうんあんんう.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_おうんあんんう.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_おうんあんんうR",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_おうんあんんうR.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_おうんあんんうR.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_かかきかくけか",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_かかきかくけか.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ががぎがぐげが",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ががぎがぐげが.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_きぇきぇきゅきょきぇきょきょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_きぇきぇきゅきょきぇきょきょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_きききゅきゃきぇききぇ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_きききゅきゃきぇききぇ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ききくかけきけ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ききくかけきけ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_きゃきゃききゃきゅきぇきゃ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_きゃきゃききゃきゅきぇきゃ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_きゅきゅききょきゃきょき",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_きゅきゅききょきゃきょき.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_きゅきゅききょきゃきょき.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_きょきゅんきゃんきゅ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_きょきゅんきゃんきゅ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_きょきゅんきゃんきゅ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぎぇぎぇぎゅぎょぎぇぎょぎょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぎぇぎぇぎゅぎょぎぇぎょぎょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぎぇぎぇぎゅぎょぎぇぎょぎょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぎぎぎゅぎゃぎぇぎぎぇ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぎぎぎゅぎゃぎぇぎぎぇ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぎぎぎゅぎゃぎぇぎぎぇ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぎぎぐがげぎげ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぎぎぐがげぎげ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぎぎぐがげぎげ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぎゃぎゃぎぎゃぎゅぎぇぎゃ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぎゃぎゃぎぎゃぎゅぎぇぎゃ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぎゃぎゃぎぎゃぎゅぎぇぎゃ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぎゅぎゅぎぎょぎゃぎょぎ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぎゅぎゅぎぎょぎゃぎょぎ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぎゅぎゅぎぎょぎゃぎょぎ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぎょぎゅんぎゃんぎゅ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぎょぎゅんぎゃんぎゅ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぎょぎゅんぎゃんぎゅ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_くくきこかこき",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_くくきこかこき.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_くくきこかこき.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぐぐぎごがごぎ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぐぐぎごがごぎ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぐぐぎごがごぎ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_けけくこけここ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_けけくこけここ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_けけくこけここ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_げげぐごげごご",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_げげぐごげごご.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_げげぐごげごご.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_こくんかんく",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_こくんかんく.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_こくんかんく.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ごぐんがんぐ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ごぐんがんぐ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ごぐんがんぐ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ささすぃさすせさ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ささすぃさすせさ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ささすぃさすせさ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ざざずぃざずぜざ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ざざずぃざずぜざ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ざざずぃざずぜざ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_しぇしぇしゅしょしぇしょしょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_しぇしぇしゅしょしぇしょしょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_しぇしぇしゅしょしぇしょしょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_しししゅしゃしぇししぇ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_しししゅしゃしぇししぇ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_しししゅしゃしぇししぇ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_しゃしゃししゃしゅしぇしゃ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_しゃしゃししゃしゅしぇしゃ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_しゃしゃししゃしゅしぇしゃ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_しゅしゅししょしゃしょし",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_しゅしゅししょしゃしょし.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_しゅしゅししょしゃしょし.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_しょしゅんしゃんしゅ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_しょしゅんしゃんしゅ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_しょしゅんしゃんしゅ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_じぇじぇじゅじょじぇじょじょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_じぇじぇじゅじょじぇじょじょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_じぇじぇじゅじょじぇじょじょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_じじじゅじゃじぇじじぇ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_じじじゅじゃじぇじじぇ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_じじじゅじゃじぇじじぇ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_じゃじゃじじゃじゅじぇじゃ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_じゃじゃじじゃじゅじぇじゃ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_じゃじゃじじゃじゅじぇじゃ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_じゅじゅじじょじゃじょじ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_じゅじゅじじょじゃじょじ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_じゅじゅじじょじゃじょじ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_じょじゅんじゃんじゅ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_じょじゅんじゃんじゅ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_じょじゅんじゃんじゅ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_すぃすぃすさせすぃせ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_すぃすぃすさせすぃせ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_すぃすぃすさせすぃせ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_すすすぃそさそすぃ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_すすすぃそさそすぃ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_すすすぃそさそすぃ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ずぃずぃずざぜずぃぜ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ずぃずぃずざぜずぃぜ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ずぃずぃずざぜずぃぜ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ずずずぃぞざぞずぃ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ずずずぃぞざぞずぃ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ずずずぃぞざぞずぃ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_せせすそせそそ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_せせすそせそそ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_せせすそせそそ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぜぜずぞぜぞぞ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぜぜずぞぜぞぞ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぜぜずぞぜぞぞ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_そすんさんす",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_そすんさんす.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_そすんさんす.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぞずんざんず",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぞずんざんず.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぞずんざんず.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_たたてぃたとぅてた",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_たたてぃたとぅてた.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_たたてぃたとぅてた.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_だだでぃだどぅでだ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_だだでぃだどぅでだ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_だだでぃだどぅでだ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ちぇちぇちゅちょちぇちょちょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ちぇちぇちゅちょちぇちょちょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ちぇちぇちゅちょちぇちょちょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ちちちゅちゃちぇちちぇ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ちちちゅちゃちぇちちぇ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ちちちゅちゃちぇちちぇ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ちゃちゃちちゃちゅちぇちゃ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ちゃちゃちちゃちゅちぇちゃ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ちゃちゃちちゃちゅちぇちゃ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ちゅちゅちちょちゃちょち",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ちゅちゅちちょちゃちょち.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ちゅちゅちちょちゃちょち.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ちょちゅんちゃんちゅ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ちょちゅんちゃんちゅ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ちょちゅんちゃんちゅ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_つぁつぁつぃつぁつつぇつぁ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_つぁつぁつぃつぁつつぇつぁ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_つぁつぁつぃつぁつつぇつぁ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_つぃつぃつつぁつぇつぃつぇ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_つぃつぃつつぁつぇつぃつぇ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_つぃつぃつつぁつぇつぃつぇ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_つぇつぇつつぉつぇつぉつぉ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_つぇつぇつつぉつぇつぉつぉ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_つぇつぇつつぉつぇつぉつぉ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_つぉつんつぁんつ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_つぉつんつぁんつ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_つぉつんつぁんつ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_つつつぃつぉつぁつぉつぃ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_つつつぃつぉつぁつぉつぃ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_つつつぃつぉつぁつぉつぃ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_てぃてぃとぅたててぃて",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_てぃてぃとぅたててぃて.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_てぃてぃとぅたててぃて.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_てぃてゅあてゅてゅんびょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_てぃてゅあてゅてゅんびょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_てぃてゅあてゅてゅんびょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ててとぅとてとと",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ててとぅとてとと.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ててとぅとてとと.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_てゅえてゅおてゅんてゅ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_てゅえてゅおてゅんてゅ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_てゅえてゅおてゅんてゅ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_でぃでぃどぅだででぃで",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_でぃでぃどぅだででぃで.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_でぃでぃどぅだででぃで.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_でぃでゅあでゅでゅんぴょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_でぃでゅあでゅでゅんぴょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_でぃでゅあでゅでゅんぴょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ででどぅどでどど",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ででどぅどでどど.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ででどぅどでどど.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_でゅえでゅおでゅんでゅ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_でゅえでゅおでゅんでゅ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_でゅえでゅおでゅんでゅ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_とぅとぅてぃとたとてぃ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_とぅとぅてぃとたとてぃ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_とぅとぅてぃとたとてぃ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ととぅんたんとぅ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ととぅんたんとぅ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ととぅんたんとぅ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_どぅどぅでぃどだどでぃ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_どぅどぅでぃどだどでぃ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_どぅどぅでぃどだどでぃ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_どどぅんだんどぅ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_どどぅんだんどぅ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_どどぅんだんどぅ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ななになぬねな",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ななになぬねな.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ななになぬねな.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_にぇにぇにゅにょにぇにょにょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_にぇにぇにゅにょにぇにょにょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_にぇにぇにゅにょにぇにょにょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_にににゅにゃにぇににぇ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_にににゅにゃにぇににぇ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_にににゅにゃにぇににぇ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ににぬなねにね",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ににぬなねにね.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ににぬなねにね.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_にゃにゃににゃにゅにぇにゃ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_にゃにゃににゃにゅにぇにゃ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_にゃにゃににゃにゅにぇにゃ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_にゅにゅににょにゃにょに",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_にゅにゅににょにゃにょに.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_にゅにゅににょにゃにょに.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_にょにゅんにゃんにゅ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_にょにゅんにゃんにゅ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_にょにゅんにゃんにゅ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぬぬにのなのに",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぬぬにのなのに.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぬぬにのなのに.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ねねぬのねのの",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ねねぬのねのの.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ねねぬのねのの.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_のぬんなんぬ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_のぬんなんぬ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_のぬんなんぬ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ははひはふへは",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ははひはふへは.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ははひはふへは.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ばばびばぶべば",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ばばびばぶべば.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ばばびばぶべば.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぱぱぴぱぷぺぱ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぱぱぴぱぷぺぱ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぱぱぴぱぷぺぱ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ひぇひぇひゅひょひぇひょひょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ひぇひぇひゅひょひぇひょひょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ひぇひぇひゅひょひぇひょひょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ひひひゅひゃひぇひひぇ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ひひひゅひゃひぇひひぇ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ひひひゅひゃひぇひひぇ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ひひふはへひへ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ひひふはへひへ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ひひふはへひへ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ひゃひゃひひゃひゅひぇひゃ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ひゃひゃひひゃひゅひぇひゃ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ひゃひゃひひゃひゅひぇひゃ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ひゅひゅひひょひゃひょひ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ひゅひゅひひょひゃひょひ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ひゅひゅひひょひゃひょひ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ひょひゅんひゃんひゅ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ひょひゅんひゃんひゅ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ひょひゅんひゃんひゅ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_びぇびぇびゅびょびぇびょびょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_びぇびぇびゅびょびぇびょびょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_びぇびぇびゅびょびぇびょびょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_びびびゅびゃびぇんびぇ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_びびびゅびゃびぇんびぇ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_びびびゅびゃびぇんびぇ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_びびびゅびゃびぇんびぇ2",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_びびびゅびゃびぇんびぇ2.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_びびびゅびゃびぇんびぇ2.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_びびぶばべびべ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_びびぶばべびべ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_びびぶばべびべ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_びゃびゃびびゃびゅびぇびゃ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_びゃびゃびびゃびゅびぇびゃ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_びゃびゃびびゃびゅびぇびゃ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_びゅびゅびびょびゃびょび",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_びゅびゅびびょびゃびょび.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_びゅびゅびびょびゃびょび.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_びょびゅんびゃんびゅ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_びょびゅんびゃんびゅ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_びょびゅんびゃんびゅ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぴぇぴぇぴゅぴょぴぇぴょぴょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぴぇぴぇぴゅぴょぴぇぴょぴょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぴぇぴぇぴゅぴょぴぇぴょぴょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぴぴぴゅぴゃぴぇぴぴぇ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぴぴぴゅぴゃぴぇぴぴぇ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぴぴぴゅぴゃぴぇぴぴぇ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぴぴぷぱぺぴぺ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぴぴぷぱぺぴぺ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぴぴぷぱぺぴぺ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぴゃぴゃぴぴゃぴゅぴぇぴゃ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぴゃぴゃぴぴゃぴゅぴぇぴゃ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぴゃぴゃぴぴゃぴゅぴぇぴゃ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぴゅぴゅぴぴょぴゃぴょぴ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぴゅぴゅぴぴょぴゃぴょぴ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぴゅぴゅぴぴょぴゃぴょぴ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぴょぴゅんぴゃんぴゅ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぴょぴゅんぴゃんぴゅ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぴょぴゅんぴゃんぴゅ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ふぁふぁふぃふぁふふぇふぁ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ふぁふぁふぃふぁふふぇふぁ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ふぁふぁふぃふぁふふぇふぁ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ふぃふぃふふぁふぇふぃふぇ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ふぃふぃふふぁふぇふぃふぇ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ふぃふぃふふぁふぇふぃふぇ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ふぇふぇふふぉふぇふぉふぉ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ふぇふぇふふぉふぇふぉふぉ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ふぇふぇふふぉふぇふぉふぉ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ふぉんふぁんひぇんひょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ふぉんふぁんひぇんひょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ふぉんふぁんひぇんひょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ふふひほはほひ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ふふひほはほひ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ふふひほはほひ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ふふふぃふぉふぁふぉふぃ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ふふふぃふぉふぁふぉふぃ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ふふふぃふぉふぁふぉふぃ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぶぶびぼばぼび",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぶぶびぼばぼび.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぶぶびぼばぼび.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぷぷぴぽぱぽぴ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぷぷぴぽぱぽぴ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぷぷぴぽぱぽぴ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_へへふほへほほ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_へへふほへほほ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_へへふほへほほ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_べべぶぼべぼぼ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_べべぶぼべぼぼ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_べべぶぼべぼぼ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぺぺぷぽぺぽぽ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぺぺぷぽぺぽぽ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぺぺぷぽぺぽぽ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ほふんはんふ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ほふんはんふ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ほふんはんふ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぼぶんばんぶ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぼぶんばんぶ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぼぶんばんぶ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ぽぷんぱんぷ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ぽぷんぱんぷ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ぽぷんぱんぷ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ままみまむめま",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ままみまむめま.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ままみまむめま.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_みぇみぇみゅみょみぇみょみょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_みぇみぇみゅみょみぇみょみょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_みぇみぇみゅみょみぇみょみょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_みみみゅみゃみぇみみぇ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_みみみゅみゃみぇみみぇ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_みみみゅみゃみぇみみぇ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_みみむまめみめ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_みみむまめみめ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_みみむまめみめ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_みゃみゃみみゃみゅみぇみゃ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_みゃみゃみみゃみゅみぇみゃ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_みゃみゃみみゃみゅみぇみゃ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_みゅみゅみみょみゃみょみ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_みゅみゅみみょみゃみょみ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_みゅみゅみみょみゃみょみ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_みょみゅんみゃんみゅ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_みょみゅんみゃんみゅ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_みょみゅんみゃんみゅ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_むむみもまもみ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_むむみもまもみ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_むむみもまもみ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_めめむもめもも",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_めめむもめもも.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_めめむもめもも.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_もむんまんむ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_もむんまんむ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_もむんまんむ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ややいやゆいぇや",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ややいやゆいぇや.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ややいやゆいぇや.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ゆゆいよやよい",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ゆゆいよやよい.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ゆゆいよやよい.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_よゆんやんゆ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_よゆんやんゆ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_よゆんやんゆ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ららりらるれら",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ららりらるれら.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ららりらるれら.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_りぇりぇりゅりょりぇりょりょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_りぇりぇりゅりょりぇりょりょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_りぇりぇりゅりょりぇりょりょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_りゃりゃりりゃりゅりぇりゃ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_りゃりゃりりゃりゅりぇりゃ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_りゃりゃりりゃりゅりぇりゃ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_りゅりゅりりょりゃりょり",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_りゅりゅりりょりゃりょり.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_りゅりゅりりょりゃりょり.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_りょりゅんりゃんりゅ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_りょりゅんりゃんりゅ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_りょりゅんりゃんりゅ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_りりりゅりゃりぇりりぇ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_りりりゅりゃりぇりりぇ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_りりりゅりゃりぇりりぇ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_りりるられりれ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_りりるられりれ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_りりるられりれ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_るるりろらろり",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_るるりろらろり.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_るるりろらろり.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_れれるろれろろ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_れれるろれろろ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_れれるろれろろ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_ろるんらんる",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_ろるんらんる.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_ろるんらんる.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_わわうぃわううぇわ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_わわうぃわううぇわ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_わわうぃわううぇわ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んいんいぇんよ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んいんいぇんよ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んいんいぇんよ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んいんえんおん",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んいんえんおん.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んいんえんおん.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んうぃんうぇんうぉ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んうぃんうぇんうぉ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んうぃんうぇんうぉ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んきぇんきょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んきぇんきょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んきぇんきょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んきんけんこ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んきんけんこ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んきんけんこ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んぎぇんぎょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んぎぇんぎょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んぎぇんぎょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んぎんげんご",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んぎんげんご.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んぎんげんご.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んしぇんしょんしびぇ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んしぇんしょんしびぇ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んしぇんしょんしびぇ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んじんじぇんじょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んじんじぇんじょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んじんじぇんじょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んすぃんせんそ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んすぃんせんそ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んすぃんせんそ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んずぃんぜんぞ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んずぃんぜんぞ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んずぃんぜんぞ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んちぇんちょんちぴぇ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んちぇんちょんちぴぇ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んちぇんちょんちぴぇ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んつぃんつぇんつぉ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んつぃんつぇんつぉ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んつぃんつぇんつぉ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んてぃんてんと",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んてぃんてんと.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んてぃんてんと.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んでぃんでんど",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んでぃんでんど.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んでぃんでんど.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んにぇんにょんりぇ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んにぇんにょんりぇ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んにぇんにょんりぇ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んにんねんの",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んにんねんの.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んにんねんの.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んひんひぇんひょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んひんひぇんひょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んひんひぇんひょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んひんへんほ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んひんへんほ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んひんへんほ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んびんびぇんびょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んびんびぇんびょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んびんびぇんびょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んびんべんぼ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んびんべんぼ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んびんべんぼ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んぴんぴぇんぴょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んぴんぴぇんぴょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んぴんぴぇんぴょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んぴんぺんぽ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んぴんぺんぽ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んぴんぺんぽ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んふぃんふぇんふぉ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んふぃんふぇんふぉ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んふぃんふぇんふぉ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んみぇんみょんりょ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んみぇんみょんりょ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んみぇんみょんりょ.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んみんめんも",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んみんめんも.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んみんめんも.lab",
+            "entryFilter": null
+        },
+        {
+            "name": "_んりんれんろ",
+            "sampleDirectory": "wav",
+            "entries": [
+                {
+                    "sample": "_んりんれんろ.wav",
+                    "name": "pau",
+                    "start": 0.0,
+                    "end": 0.0,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": false,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": true
+                }
+            ],
+            "currentIndex": 0,
+            "extras": {
+            },
+            "rawFilePath": "lab\\_んりんれんろ.lab",
+            "entryFilter": null
+        }
+    ],
+    "currentModuleIndex": 0,
+    "autoExport": false,
+    "entryFilter": null
+}
