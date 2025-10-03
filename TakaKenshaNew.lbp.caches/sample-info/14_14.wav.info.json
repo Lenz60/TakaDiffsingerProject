@@ -1,0 +1,21 @@
+{
+    "name": "14.wav",
+    "file": "wav/14.wav",
+    "convertedFile": null,
+    "moduleName": "14",
+    "sampleRate": 44100.0,
+    "maxSampleRate": 44100,
+    "normalize": false,
+    "normalizeRatio": null,
+    "channels": 1,
+    "length": 978856,
+    "lengthMillis": 22196.281,
+    "chunkSize": 326285,
+    "chunkCount": 3,
+    "hasSpectrogram": true,
+    "hasPower": false,
+    "powerChannels": 1,
+    "hasFundamental": false,
+    "lastModified": 1759255966763,
+    "algorithmVersion": 4
+}

@@ -1,0 +1,21 @@
+{
+    "name": "10.wav",
+    "file": "wav/10.wav",
+    "convertedFile": null,
+    "moduleName": "10",
+    "sampleRate": 44100.0,
+    "maxSampleRate": 44100,
+    "normalize": false,
+    "normalizeRatio": null,
+    "channels": 1,
+    "length": 3640178,
+    "lengthMillis": 82543.72,
+    "chunkSize": 404464,
+    "chunkCount": 9,
+    "hasSpectrogram": true,
+    "hasPower": false,
+    "powerChannels": 1,
+    "hasFundamental": false,
+    "lastModified": 1759255966712,
+    "algorithmVersion": 4
+}

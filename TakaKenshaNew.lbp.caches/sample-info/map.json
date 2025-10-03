@@ -1,3 +1,11 @@
 {
-    "wav/1.wav": "1_1.wav.info.json"
+    "wav/1.wav": "1_1.wav.info.json",
+    "wav/18.wav": "18_18.wav.info.json",
+    "wav/17.wav": "17_17.wav.info.json",
+    "wav/16.wav": "16_16.wav.info.json",
+    "wav/14.wav": "14_14.wav.info.json",
+    "wav/13.wav": "13_13.wav.info.json",
+    "wav/12.wav": "12_12.wav.info.json",
+    "wav/10.wav": "10_10.wav.info.json",
+    "wav/11.wav": "11_11.wav.info.json"
 }

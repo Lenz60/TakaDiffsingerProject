@@ -1,0 +1,21 @@
+{
+    "name": "18.wav",
+    "file": "wav/18.wav",
+    "convertedFile": null,
+    "moduleName": "18",
+    "sampleRate": 44100.0,
+    "maxSampleRate": 44100,
+    "normalize": false,
+    "normalizeRatio": null,
+    "channels": 1,
+    "length": 1646490,
+    "lengthMillis": 37335.37,
+    "chunkSize": 411622,
+    "chunkCount": 4,
+    "hasSpectrogram": true,
+    "hasPower": false,
+    "powerChannels": 1,
+    "hasFundamental": false,
+    "lastModified": 1759255966810,
+    "algorithmVersion": 4
+}
