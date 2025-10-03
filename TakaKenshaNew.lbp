@@ -1686,7 +1686,7 @@
                 },
                 {
                     "sample": "1.wav",
-                    "name": "AP",
+                    "name": "EP",
                     "start": 14448.9795,
                     "end": 14619.501,
                     "points": [
@@ -4310,7 +4310,7 @@
                 },
                 {
                     "sample": "1.wav",
-                    "name": "AP",
+                    "name": "EP",
                     "start": 36771.88,
                     "end": 37061.223,
                     "points": [
@@ -4341,7 +4341,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 256,
+            "currentIndex": 255,
             "extras": {
             },
             "rawFilePath": "lab\\1.lab",
@@ -17540,7 +17540,7 @@
                 },
                 {
                     "sample": "2.wav",
-                    "name": "AP",
+                    "name": "EP",
                     "start": 4243.084,
                     "end": 4424.4897,
                     "points": [
@@ -21524,7 +21524,7 @@
                 },
                 {
                     "sample": "2.wav",
-                    "name": "AP",
+                    "name": "EP",
                     "start": 37400.453,
                     "end": 37719.727,
                     "points": [
@@ -21555,7 +21555,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 274,
             "extras": {
             },
             "rawFilePath": "lab\\2.lab",
@@ -21583,7 +21583,7 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "AP",
+                    "name": "SP",
                     "start": 4559.6367,
                     "end": 4608.6167,
                     "points": [
@@ -21871,7 +21871,7 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "AP",
+                    "name": "EP",
                     "start": 8041.723,
                     "end": 8387.303,
                     "points": [
@@ -26033,7 +26033,7 @@
                     "sample": "3.wav",
                     "name": "o",
                     "start": 56575.41,
-                    "end": 56854.027,
+                    "end": 56854.03,
                     "points": [
                     ],
                     "extras": [
@@ -26048,14 +26048,14 @@
                 {
                     "sample": "3.wav",
                     "name": "AP",
-                    "start": 56854.027,
-                    "end": 57161.707,
+                    "start": 56854.03,
+                    "end": 57137.41,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -26064,14 +26064,14 @@
                 {
                     "sample": "3.wav",
                     "name": "k",
-                    "start": 57161.707,
-                    "end": 57199.348,
+                    "start": 57137.41,
+                    "end": 57199.344,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
@@ -26080,7 +26080,7 @@
                 {
                     "sample": "3.wav",
                     "name": "a",
-                    "start": 57199.348,
+                    "start": 57199.344,
                     "end": 57483.78,
                     "points": [
                     ],
@@ -27007,24 +27007,8 @@
                 },
                 {
                     "sample": "3.wav",
-                    "name": "SP",
+                    "name": "EP",
                     "start": 67277.086,
-                    "end": 67333.336,
-                    "points": [
-                    ],
-                    "extras": [
-                    ],
-                    "notes": {
-                        "done": false,
-                        "star": false,
-                        "tag": ""
-                    },
-                    "needSync": false
-                },
-                {
-                    "sample": "3.wav",
-                    "name": "AP",
-                    "start": 67333.336,
                     "end": 67814.97,
                     "points": [
                     ],
@@ -32590,7 +32574,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 340,
             "extras": {
             },
             "rawFilePath": "lab\\3.lab",
@@ -32682,7 +32666,7 @@
                 },
                 {
                     "sample": "4.wav",
-                    "name": "AP",
+                    "name": "EP",
                     "start": 3229.932,
                     "end": 3430.7737,
                     "points": [
@@ -36378,7 +36362,7 @@
                 },
                 {
                     "sample": "4.wav",
-                    "name": "AP",
+                    "name": "EP",
                     "start": 61673.473,
                     "end": 62105.223,
                     "points": [
@@ -36409,7 +36393,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 168,
             "extras": {
             },
             "rawFilePath": "lab\\4.lab",
@@ -39716,7 +39700,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 174,
             "extras": {
             },
             "rawFilePath": "lab\\5.lab",
@@ -43215,7 +43199,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 203,
             "extras": {
             },
             "rawFilePath": "lab\\6.lab",
@@ -56219,7 +56203,7 @@
                 },
                 {
                     "sample": "7.wav",
-                    "name": "AP",
+                    "name": "EP",
                     "start": 205394.11,
                     "end": 205565.53,
                     "points": [
@@ -58394,7 +58378,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 932,
             "extras": {
             },
             "rawFilePath": "lab\\7.lab",
@@ -58455,7 +58439,7 @@
             "entryFilter": null
         }
     ],
-    "currentModuleIndex": 3,
+    "currentModuleIndex": 15,
     "autoExport": false,
     "entryFilter": null
 }
