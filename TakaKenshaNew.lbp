@@ -13248,7 +13248,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 49,
+            "currentIndex": 16,
             "extras": {
             },
             "rawFilePath": "lab\\10.lab",
@@ -20818,7 +20818,7 @@
                 },
                 {
                     "sample": "13.wav",
-                    "name": "a1",
+                    "name": "a",
                     "start": 18365.533,
                     "end": 18558.73,
                     "points": [
@@ -22865,7 +22865,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 239,
+            "currentIndex": 113,
             "extras": {
             },
             "rawFilePath": "lab\\13.lab",
@@ -55866,7 +55866,7 @@
                 },
                 {
                     "sample": "4.wav",
-                    "name": "a1",
+                    "name": "a",
                     "start": 38576.87,
                     "end": 38823.586,
                     "points": [
@@ -57017,7 +57017,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 168,
+            "currentIndex": 166,
             "extras": {
             },
             "rawFilePath": "lab\\4.lab",
@@ -88839,7 +88839,7 @@
             "entryFilter": null
         }
     ],
-    "currentModuleIndex": 16,
+    "currentModuleIndex": 12,
     "autoExport": false,
     "entryFilter": null
 }

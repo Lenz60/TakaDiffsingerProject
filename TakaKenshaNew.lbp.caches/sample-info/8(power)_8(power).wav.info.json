@@ -7,7 +7,7 @@
     "maxSampleRate": 44100,
     "normalize": false,
     "normalizeRatio": null,
-    "channels": 2,
+    "channels": 1,
     "length": 3666231,
     "lengthMillis": 83134.49,
     "chunkSize": 407359,
@@ -16,6 +16,6 @@
     "hasPower": false,
     "powerChannels": 1,
     "hasFundamental": false,
-    "lastModified": 1759515258125,
+    "lastModified": 1759590138557,
     "algorithmVersion": 4
 }
