@@ -230,22 +230,166 @@
             "entries": [
                 {
                     "sample": "_ああいあうえあ.wav",
-                    "name": "pau",
-                    "start": 0.0,
-                    "end": 5062.041,
+                    "name": "SP",
+                    "start": 903.40137,
+                    "end": 949.65985,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあ.wav",
+                    "name": "a",
+                    "start": 949.65985,
+                    "end": 1482.0862,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあ.wav",
+                    "name": "a",
+                    "start": 1482.0862,
+                    "end": 1866.6666,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあ.wav",
+                    "name": "i",
+                    "start": 1866.6666,
+                    "end": 2294.7847,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあ.wav",
+                    "name": "a",
+                    "start": 2294.7847,
+                    "end": 2738.322,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあ.wav",
+                    "name": "u",
+                    "start": 2738.322,
+                    "end": 3122.9026,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあ.wav",
+                    "name": "e",
+                    "start": 3122.9026,
+                    "end": 3557.3696,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあ.wav",
+                    "name": "a",
+                    "start": 3557.3696,
+                    "end": 4149.6597,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあ.wav",
+                    "name": "EP",
+                    "start": 4149.6597,
+                    "end": 4295.6914,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあ.wav",
+                    "name": "pau",
+                    "start": 4295.6914,
+                    "end": 4341.043,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
                     "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 9,
             "extras": {
             },
             "rawFilePath": "lab\\_ああいあうえあ.lab",
@@ -257,22 +401,198 @@
             "entries": [
                 {
                     "sample": "_ああいあうえあR.wav",
-                    "name": "pau",
+                    "name": "SP",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 454.42178,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあR.wav",
+                    "name": "AP",
+                    "start": 454.42178,
+                    "end": 900.6803,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあR.wav",
+                    "name": "SP",
+                    "start": 900.6803,
+                    "end": 1054.8752,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあR.wav",
+                    "name": "a",
+                    "start": 1054.8752,
+                    "end": 1299.7732,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあR.wav",
+                    "name": "a",
+                    "start": 1299.7732,
+                    "end": 1845.8049,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあR.wav",
+                    "name": "i",
+                    "start": 1845.8049,
+                    "end": 2281.1792,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあR.wav",
+                    "name": "a",
+                    "start": 2281.1792,
+                    "end": 2731.0657,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあR.wav",
+                    "name": "u",
+                    "start": 2731.0657,
+                    "end": 3131.973,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあR.wav",
+                    "name": "e",
+                    "start": 3131.973,
+                    "end": 3590.9297,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあR.wav",
+                    "name": "a",
+                    "start": 3590.9297,
+                    "end": 4087.982,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあR.wav",
+                    "name": "EP",
+                    "start": 4087.982,
+                    "end": 4472.5625,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ああいあうえあR.wav",
+                    "name": "pau",
+                    "start": 4472.5625,
+                    "end": 4533.3335,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 10,
             "extras": {
             },
             "rawFilePath": "lab\\_ああいあうえあR.lab",
@@ -284,22 +604,166 @@
             "entries": [
                 {
                     "sample": "_いいうあえいえ.wav",
-                    "name": "pau",
+                    "name": "SP",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 965.07935,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえ.wav",
+                    "name": "i",
+                    "start": 965.07935,
+                    "end": 1478.458,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえ.wav",
+                    "name": "i",
+                    "start": 1478.458,
+                    "end": 1843.0839,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえ.wav",
+                    "name": "u",
+                    "start": 1843.0839,
+                    "end": 2221.3152,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえ.wav",
+                    "name": "a",
+                    "start": 2221.3152,
+                    "end": 2629.4785,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえ.wav",
+                    "name": "e",
+                    "start": 2629.4785,
+                    "end": 3090.2495,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえ.wav",
+                    "name": "i",
+                    "start": 3090.2495,
+                    "end": 3562.8118,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえ.wav",
+                    "name": "e",
+                    "start": 3562.8118,
+                    "end": 4034.467,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえ.wav",
+                    "name": "EP",
+                    "start": 4034.467,
+                    "end": 4324.717,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえ.wav",
+                    "name": "pau",
+                    "start": 4324.717,
+                    "end": 4378.2314,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 8,
             "extras": {
             },
             "rawFilePath": "lab\\_いいうあえいえ.lab",
@@ -311,22 +775,198 @@
             "entries": [
                 {
                     "sample": "_いいうあえいえR.wav",
-                    "name": "pau",
+                    "name": "SP",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 391.83673,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえR.wav",
+                    "name": "AP",
+                    "start": 391.83673,
+                    "end": 833.5601,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえR.wav",
+                    "name": "SP",
+                    "start": 833.5601,
+                    "end": 929.7052,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえR.wav",
+                    "name": "i",
+                    "start": 929.7052,
+                    "end": 1424.9434,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえR.wav",
+                    "name": "i",
+                    "start": 1424.9434,
+                    "end": 1818.5941,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえR.wav",
+                    "name": "u",
+                    "start": 1818.5941,
+                    "end": 2211.338,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえR.wav",
+                    "name": "a",
+                    "start": 2211.338,
+                    "end": 2641.2698,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえR.wav",
+                    "name": "e",
+                    "start": 2641.2698,
+                    "end": 3091.1565,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえR.wav",
+                    "name": "i",
+                    "start": 3091.1565,
+                    "end": 3578.2312,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえR.wav",
+                    "name": "e",
+                    "start": 3578.2312,
+                    "end": 4040.8164,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえR.wav",
+                    "name": "EP",
+                    "start": 4040.8164,
+                    "end": 4391.837,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいうあえいえR.wav",
+                    "name": "pau",
+                    "start": 4391.837,
+                    "end": 4455.3286,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 11,
             "extras": {
             },
             "rawFilePath": "lab\\_いいうあえいえR.lab",
@@ -339,21 +979,213 @@
                 {
                     "sample": "_いいゆやいぇいいぇ.wav",
                     "name": "pau",
-                    "start": 0.0,
-                    "end": 0.0,
+                    "start": 831.74603,
+                    "end": 955.10205,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいゆやいぇいいぇ.wav",
+                    "name": "i",
+                    "start": 955.10205,
+                    "end": 1827.6644,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいゆやいぇいいぇ.wav",
+                    "name": "y",
+                    "start": 1827.6644,
+                    "end": 1897.5056,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいゆやいぇいいぇ.wav",
+                    "name": "u",
+                    "start": 1897.5056,
+                    "end": 2251.247,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいゆやいぇいいぇ.wav",
+                    "name": "y",
+                    "start": 2251.247,
+                    "end": 2289.3423,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいゆやいぇいいぇ.wav",
+                    "name": "a",
+                    "start": 2289.3423,
+                    "end": 2596.8254,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいゆやいぇいいぇ.wav",
+                    "name": "y",
+                    "start": 2596.8254,
+                    "end": 2701.1338,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいゆやいぇいいぇ.wav",
+                    "name": "e",
+                    "start": 2701.1338,
+                    "end": 3113.8323,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいゆやいぇいいぇ.wav",
+                    "name": "i",
+                    "start": 3113.8323,
+                    "end": 3519.2744,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいゆやいぇいいぇ.wav",
+                    "name": "y",
+                    "start": 3519.2744,
+                    "end": 3560.9978,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいゆやいぇいいぇ.wav",
+                    "name": "e",
+                    "start": 3560.9978,
+                    "end": 4000.907,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいゆやいぇいいぇ.wav",
+                    "name": "EP",
+                    "start": 4000.907,
+                    "end": 4278.458,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いいゆやいぇいいぇ.wav",
+                    "name": "pau",
+                    "start": 4278.458,
+                    "end": 4331.9727,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 11,
             "extras": {
             },
             "rawFilePath": "lab\\_いいゆやいぇいいぇ.lab",
@@ -367,20 +1199,276 @@
                     "sample": "_いぇいぇゆよいぇよよ.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 925.17004,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_いぇいぇゆよいぇよよ.wav",
+                    "name": "y",
+                    "start": 925.17004,
+                    "end": 1035.8276,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いぇいぇゆよいぇよよ.wav",
+                    "name": "e",
+                    "start": 1035.8276,
+                    "end": 1309.7506,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いぇいぇゆよいぇよよ.wav",
+                    "name": "y",
+                    "start": 1309.7506,
+                    "end": 1435.8276,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いぇいぇゆよいぇよよ.wav",
+                    "name": "e",
+                    "start": 1435.8276,
+                    "end": 1716.0997,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いぇいぇゆよいぇよよ.wav",
+                    "name": "y",
+                    "start": 1716.0997,
+                    "end": 1815.873,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いぇいぇゆよいぇよよ.wav",
+                    "name": "u",
+                    "start": 1815.873,
+                    "end": 2238.5488,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いぇいぇゆよいぇよよ.wav",
+                    "name": "y",
+                    "start": 2238.5488,
+                    "end": 2275.737,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いぇいぇゆよいぇよよ.wav",
+                    "name": "o",
+                    "start": 2275.737,
+                    "end": 2560.5442,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いぇいぇゆよいぇよよ.wav",
+                    "name": "y",
+                    "start": 2560.5442,
+                    "end": 2675.737,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いぇいぇゆよいぇよよ.wav",
+                    "name": "e",
+                    "start": 2675.737,
+                    "end": 3005.8958,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いぇいぇゆよいぇよよ.wav",
+                    "name": "y",
+                    "start": 3005.8958,
+                    "end": 3104.762,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いぇいぇゆよいぇよよ.wav",
+                    "name": "o",
+                    "start": 3104.762,
+                    "end": 3430.3855,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いぇいぇゆよいぇよよ.wav",
+                    "name": "y",
+                    "start": 3430.3855,
+                    "end": 3548.2993,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いぇいぇゆよいぇよよ.wav",
+                    "name": "o",
+                    "start": 3548.2993,
+                    "end": 4064.3992,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いぇいぇゆよいぇよよ.wav",
+                    "name": "EP",
+                    "start": 4064.3992,
+                    "end": 4380.0454,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_いぇいぇゆよいぇよよ.wav",
+                    "name": "pau",
+                    "start": 4380.0454,
+                    "end": 4410.8843,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 15,
             "extras": {
             },
             "rawFilePath": "lab\\_いぇいぇゆよいぇよよ.lab",
@@ -394,20 +1482,260 @@
                     "sample": "_うぃうぃうわうぇうぃうぇ.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 944.2177,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぃうぃうわうぇうぃうぇ.wav",
+                    "name": "w",
+                    "start": 944.2177,
+                    "end": 1034.9207,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぃうぃうわうぇうぃうぇ.wav",
+                    "name": "i",
+                    "start": 1034.9207,
+                    "end": 1383.22,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぃうぃうわうぇうぃうぇ.wav",
+                    "name": "w",
+                    "start": 1383.22,
+                    "end": 1464.8527,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぃうぃうわうぇうぃうぇ.wav",
+                    "name": "i",
+                    "start": 1464.8527,
+                    "end": 1866.6666,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぃうぃうわうぇうぃうぇ.wav",
+                    "name": "u",
+                    "start": 1866.6666,
+                    "end": 2238.5488,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぃうぃうわうぇうぃうぇ.wav",
+                    "name": "w",
+                    "start": 2238.5488,
+                    "end": 2272.109,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぃうぃうわうぇうぃうぇ.wav",
+                    "name": "a",
+                    "start": 2272.109,
+                    "end": 2632.1995,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぃうぃうわうぇうぃうぇ.wav",
+                    "name": "w",
+                    "start": 2632.1995,
+                    "end": 2709.297,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぃうぃうわうぇうぃうぇ.wav",
+                    "name": "e",
+                    "start": 2709.297,
+                    "end": 3049.433,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぃうぃうわうぇうぃうぇ.wav",
+                    "name": "w",
+                    "start": 3049.433,
+                    "end": 3111.111,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぃうぃうわうぇうぃうぇ.wav",
+                    "name": "i",
+                    "start": 3111.111,
+                    "end": 3523.8096,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぃうぃうわうぇうぃうぇ.wav",
+                    "name": "w",
+                    "start": 3523.8096,
+                    "end": 3606.349,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぃうぃうわうぇうぃうぇ.wav",
+                    "name": "e",
+                    "start": 3606.349,
+                    "end": 4144.218,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぃうぃうわうぇうぃうぇ.wav",
+                    "name": "EP",
+                    "start": 4144.218,
+                    "end": 4372.789,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぃうぃうわうぇうぃうぇ.wav",
+                    "name": "pau",
+                    "start": 4372.789,
+                    "end": 4419.048,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 14,
             "extras": {
             },
             "rawFilePath": "lab\\_うぃうぃうわうぇうぃうぇ.lab",
@@ -421,20 +1749,164 @@
                     "sample": "_うういおあおい.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 981.4059,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおい.wav",
+                    "name": "u",
+                    "start": 981.4059,
+                    "end": 1443.991,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおい.wav",
+                    "name": "u",
+                    "start": 1443.991,
+                    "end": 1792.2903,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおい.wav",
+                    "name": "i",
+                    "start": 1792.2903,
+                    "end": 2268.4807,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおい.wav",
+                    "name": "o",
+                    "start": 2268.4807,
+                    "end": 2686.6213,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおい.wav",
+                    "name": "a",
+                    "start": 2686.6213,
+                    "end": 3100.2268,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおい.wav",
+                    "name": "o",
+                    "start": 3100.2268,
+                    "end": 3574.6033,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおい.wav",
+                    "name": "i",
+                    "start": 3574.6033,
+                    "end": 4094.331,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおい.wav",
+                    "name": "EP",
+                    "start": 4094.331,
+                    "end": 4372.789,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおい.wav",
+                    "name": "pau",
+                    "start": 4372.789,
+                    "end": 4428.1177,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 8,
             "extras": {
             },
             "rawFilePath": "lab\\_うういおあおい.lab",
@@ -448,20 +1920,196 @@
                     "sample": "_うういおあおいR.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 372.78912,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおいR.wav",
+                    "name": "AP",
+                    "start": 372.78912,
+                    "end": 805.4422,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおいR.wav",
+                    "name": "SP",
+                    "start": 805.4422,
+                    "end": 985.034,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおいR.wav",
+                    "name": "u",
+                    "start": 985.034,
+                    "end": 1438.5487,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおいR.wav",
+                    "name": "u",
+                    "start": 1438.5487,
+                    "end": 1806.8027,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおいR.wav",
+                    "name": "i",
+                    "start": 1806.8027,
+                    "end": 2246.712,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおいR.wav",
+                    "name": "o",
+                    "start": 2246.712,
+                    "end": 2649.433,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおいR.wav",
+                    "name": "a",
+                    "start": 2649.433,
+                    "end": 3121.0884,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおいR.wav",
+                    "name": "o",
+                    "start": 3121.0884,
+                    "end": 3572.789,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおいR.wav",
+                    "name": "i",
+                    "start": 3572.789,
+                    "end": 4100.68,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおいR.wav",
+                    "name": "EP",
+                    "start": 4100.68,
+                    "end": 4595.011,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うういおあおいR.wav",
+                    "name": "pau",
+                    "start": 4595.011,
+                    "end": 4644.898,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 10,
             "extras": {
             },
             "rawFilePath": "lab\\_うういおあおいR.lab",
@@ -475,20 +2123,244 @@
                     "sample": "_うううぃうぉわうぉうぃ.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 935.1474,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_うううぃうぉわうぉうぃ.wav",
+                    "name": "u",
+                    "start": 935.1474,
+                    "end": 1340.5896,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うううぃうぉわうぉうぃ.wav",
+                    "name": "u",
+                    "start": 1340.5896,
+                    "end": 1764.1724,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うううぃうぉわうぉうぃ.wav",
+                    "name": "w",
+                    "start": 1764.1724,
+                    "end": 1817.6871,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うううぃうぉわうぉうぃ.wav",
+                    "name": "i",
+                    "start": 1817.6871,
+                    "end": 2214.0588,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うううぃうぉわうぉうぃ.wav",
+                    "name": "w",
+                    "start": 2214.0588,
+                    "end": 2272.109,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うううぃうぉわうぉうぃ.wav",
+                    "name": "o",
+                    "start": 2272.109,
+                    "end": 2611.338,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うううぃうぉわうぉうぃ.wav",
+                    "name": "w",
+                    "start": 2611.338,
+                    "end": 2672.109,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うううぃうぉわうぉうぃ.wav",
+                    "name": "a",
+                    "start": 2672.109,
+                    "end": 3061.2246,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うううぃうぉわうぉうぃ.wav",
+                    "name": "w",
+                    "start": 3061.2246,
+                    "end": 3117.4602,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うううぃうぉわうぉうぃ.wav",
+                    "name": "o",
+                    "start": 3117.4602,
+                    "end": 3503.855,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うううぃうぉわうぉうぃ.wav",
+                    "name": "w",
+                    "start": 3503.855,
+                    "end": 3551.9275,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うううぃうぉわうぉうぃ.wav",
+                    "name": "i",
+                    "start": 3551.9275,
+                    "end": 4029.932,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うううぃうぉわうぉうぃ.wav",
+                    "name": "EP",
+                    "start": 4029.932,
+                    "end": 4282.993,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うううぃうぉわうぉうぃ.wav",
+                    "name": "pau",
+                    "start": 4282.993,
+                    "end": 4370.975,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 13,
             "extras": {
             },
             "rawFilePath": "lab\\_うううぃうぉわうぉうぃ.lab",
@@ -502,20 +2374,260 @@
                     "sample": "_うぇうぇううぉうぇうぉうぉ.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 1008.61676,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぇうぇううぉうぇうぉうぉ.wav",
+                    "name": "w",
+                    "start": 1008.61676,
+                    "end": 1072.1089,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぇうぇううぉうぇうぉうぉ.wav",
+                    "name": "e",
+                    "start": 1072.1089,
+                    "end": 1377.7778,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぇうぇううぉうぇうぉうぉ.wav",
+                    "name": "w",
+                    "start": 1377.7778,
+                    "end": 1462.1315,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぇうぇううぉうぇうぉうぉ.wav",
+                    "name": "e",
+                    "start": 1462.1315,
+                    "end": 1858.5034,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぇうぇううぉうぇうぉうぉ.wav",
+                    "name": "u",
+                    "start": 1858.5034,
+                    "end": 2277.551,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぇうぇううぉうぇうぉうぉ.wav",
+                    "name": "w",
+                    "start": 2277.551,
+                    "end": 2312.018,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぇうぇううぉうぇうぉうぉ.wav",
+                    "name": "o",
+                    "start": 2312.018,
+                    "end": 2640.3628,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぇうぇううぉうぇうぉうぉ.wav",
+                    "name": "w",
+                    "start": 2640.3628,
+                    "end": 2695.6917,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぇうぇううぉうぇうぉうぉ.wav",
+                    "name": "e",
+                    "start": 2695.6917,
+                    "end": 3057.5964,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぇうぇううぉうぇうぉうぉ.wav",
+                    "name": "w",
+                    "start": 3057.5964,
+                    "end": 3139.229,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぇうぇううぉうぇうぉうぉ.wav",
+                    "name": "o",
+                    "start": 3139.229,
+                    "end": 3501.1338,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぇうぇううぉうぇうぉうぉ.wav",
+                    "name": "w",
+                    "start": 3501.1338,
+                    "end": 3574.6033,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぇうぇううぉうぇうぉうぉ.wav",
+                    "name": "o",
+                    "start": 3574.6033,
+                    "end": 4107.9365,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぇうぇううぉうぇうぉうぉ.wav",
+                    "name": "EP",
+                    "start": 4107.9365,
+                    "end": 4421.7686,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぇうぇううぉうぇうぉうぉ.wav",
+                    "name": "pau",
+                    "start": 4421.7686,
+                    "end": 4458.05,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 14,
             "extras": {
             },
             "rawFilePath": "lab\\_うぇうぇううぉうぇうぉうぉ.lab",
@@ -529,20 +2641,196 @@
                     "sample": "_うぉうんわんう.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 934.24036,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぉうんわんう.wav",
+                    "name": "w",
+                    "start": 934.24036,
+                    "end": 1036.7347,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぉうんわんう.wav",
+                    "name": "o",
+                    "start": 1036.7347,
+                    "end": 1448.5261,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぉうんわんう.wav",
+                    "name": "pau",
+                    "start": 1448.5261,
+                    "end": 1813.152,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぉうんわんう.wav",
+                    "name": "N",
+                    "start": 1813.152,
+                    "end": 2228.5715,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぉうんわんう.wav",
+                    "name": "w",
+                    "start": 2228.5715,
+                    "end": 2291.1565,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぉうんわんう.wav",
+                    "name": "a",
+                    "start": 2291.1565,
+                    "end": 2673.0159,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぉうんわんう.wav",
+                    "name": "N",
+                    "start": 2673.0159,
+                    "end": 2898.8662,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぉうんわんう.wav",
+                    "name": "N",
+                    "start": 2898.8662,
+                    "end": 3121.0884,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぉうんわんう.wav",
+                    "name": "u",
+                    "start": 3121.0884,
+                    "end": 3736.0544,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぉうんわんう.wav",
+                    "name": "EP",
+                    "start": 3736.0544,
+                    "end": 3933.7869,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_うぉうんわんう.wav",
+                    "name": "pau",
+                    "start": 3933.7869,
+                    "end": 4999.5464,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 10,
             "extras": {
             },
             "rawFilePath": "lab\\_うぉうんわんう.lab",
@@ -556,20 +2844,180 @@
                     "sample": "_ええうおえおお.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 978.6848,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおお.wav",
+                    "name": "e",
+                    "start": 978.6848,
+                    "end": 1421.3152,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおお.wav",
+                    "name": "e",
+                    "start": 1421.3152,
+                    "end": 1822.2222,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおお.wav",
+                    "name": "u",
+                    "start": 1822.2222,
+                    "end": 2193.1973,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおお.wav",
+                    "name": "w",
+                    "start": 2193.1973,
+                    "end": 2245.805,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおお.wav",
+                    "name": "o",
+                    "start": 2245.805,
+                    "end": 2604.0815,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおお.wav",
+                    "name": "e",
+                    "start": 2604.0815,
+                    "end": 3129.2517,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおお.wav",
+                    "name": "o",
+                    "start": 3129.2517,
+                    "end": 3532.88,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおお.wav",
+                    "name": "o",
+                    "start": 3532.88,
+                    "end": 4063.492,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおお.wav",
+                    "name": "EP",
+                    "start": 4063.492,
+                    "end": 4355.5557,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおお.wav",
+                    "name": "pau",
+                    "start": 4355.5557,
+                    "end": 4999.5464,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 9,
             "extras": {
             },
             "rawFilePath": "lab\\_ええうおえおお.lab",
@@ -583,20 +3031,196 @@
                     "sample": "_ええうおえおおR.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 470.7483,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおおR.wav",
+                    "name": "AP",
+                    "start": 470.7483,
+                    "end": 867.1202,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおおR.wav",
+                    "name": "SP",
+                    "start": 867.1202,
+                    "end": 956.0091,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおおR.wav",
+                    "name": "e",
+                    "start": 956.0091,
+                    "end": 1386.848,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおおR.wav",
+                    "name": "e",
+                    "start": 1386.848,
+                    "end": 1818.5941,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおおR.wav",
+                    "name": "u",
+                    "start": 1818.5941,
+                    "end": 2302.0408,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおおR.wav",
+                    "name": "o",
+                    "start": 2302.0408,
+                    "end": 2662.1316,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおおR.wav",
+                    "name": "e",
+                    "start": 2662.1316,
+                    "end": 3223.5828,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおおR.wav",
+                    "name": "o",
+                    "start": 3223.5828,
+                    "end": 3678.9116,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおおR.wav",
+                    "name": "o",
+                    "start": 3678.9116,
+                    "end": 4032.653,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおおR.wav",
+                    "name": "EP",
+                    "start": 4032.653,
+                    "end": 4471.6553,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ええうおえおおR.wav",
+                    "name": "pau",
+                    "start": 4471.6553,
+                    "end": 5062.041,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 10,
             "extras": {
             },
             "rawFilePath": "lab\\_ええうおえおおR.lab",
@@ -610,20 +3234,180 @@
                     "sample": "_おうんあんんう.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 1022.2222,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんう.wav",
+                    "name": "o",
+                    "start": 1022.2222,
+                    "end": 1487.5283,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんう.wav",
+                    "name": "u",
+                    "start": 1487.5283,
+                    "end": 1882.0862,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんう.wav",
+                    "name": "N",
+                    "start": 1882.0862,
+                    "end": 2102.4944,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんう.wav",
+                    "name": "N",
+                    "start": 2102.4944,
+                    "end": 2321.0884,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんう.wav",
+                    "name": "a",
+                    "start": 2321.0884,
+                    "end": 2728.3447,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんう.wav",
+                    "name": "N",
+                    "start": 2728.3447,
+                    "end": 3207.2563,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんう.wav",
+                    "name": "N",
+                    "start": 3207.2563,
+                    "end": 3628.118,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんう.wav",
+                    "name": "u",
+                    "start": 3628.118,
+                    "end": 4304.7617,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんう.wav",
+                    "name": "EP",
+                    "start": 4304.7617,
+                    "end": 4566.8936,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんう.wav",
+                    "name": "pau",
+                    "start": 4566.8936,
+                    "end": 5124.535,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 9,
             "extras": {
             },
             "rawFilePath": "lab\\_おうんあんんう.lab",
@@ -637,20 +3421,212 @@
                     "sample": "_おうんあんんうR.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 527.8912,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんうR.wav",
+                    "name": "AP",
+                    "start": 527.8912,
+                    "end": 898.8662,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんうR.wav",
+                    "name": "SP",
+                    "start": 898.8662,
+                    "end": 988.6621,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんうR.wav",
+                    "name": "o",
+                    "start": 988.6621,
+                    "end": 1439.4558,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんうR.wav",
+                    "name": "u",
+                    "start": 1439.4558,
+                    "end": 1841.2699,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんうR.wav",
+                    "name": "N",
+                    "start": 1841.2699,
+                    "end": 2069.8413,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんうR.wav",
+                    "name": "N",
+                    "start": 2069.8413,
+                    "end": 2284.8074,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんうR.wav",
+                    "name": "a",
+                    "start": 2284.8074,
+                    "end": 2665.7595,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんうR.wav",
+                    "name": "N",
+                    "start": 2665.7595,
+                    "end": 3193.651,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんうR.wav",
+                    "name": "N",
+                    "start": 3193.651,
+                    "end": 3595.4648,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんうR.wav",
+                    "name": "u",
+                    "start": 3595.4648,
+                    "end": 4091.6099,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんうR.wav",
+                    "name": "EP",
+                    "start": 4091.6099,
+                    "end": 4595.9185,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_おうんあんんうR.wav",
+                    "name": "pau",
+                    "start": 4595.9185,
+                    "end": 5062.041,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 11,
             "extras": {
             },
             "rawFilePath": "lab\\_おうんあんんうR.lab",
@@ -664,20 +3640,372 @@
                     "sample": "_かかきかくけか.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 1066.6666,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "k",
+                    "start": 1066.6666,
+                    "end": 1094.7845,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "a",
+                    "start": 1094.7845,
+                    "end": 1404.0817,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "cl",
+                    "start": 1404.0817,
+                    "end": 1482.9932,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "k",
+                    "start": 1482.9932,
+                    "end": 1507.483,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "a",
+                    "start": 1507.483,
+                    "end": 1806.8027,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "cl",
+                    "start": 1806.8027,
+                    "end": 1891.1565,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "k",
+                    "start": 1891.1565,
+                    "end": 1921.9955,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "i",
+                    "start": 1921.9955,
+                    "end": 2224.9434,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "cl",
+                    "start": 2224.9434,
+                    "end": 2292.9705,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "k",
+                    "start": 2292.9705,
+                    "end": 2322.9026,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "a",
+                    "start": 2322.9026,
+                    "end": 2649.433,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "cl",
+                    "start": 2649.433,
+                    "end": 2732.88,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "k",
+                    "start": 2732.88,
+                    "end": 2770.068,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "u",
+                    "start": 2770.068,
+                    "end": 3088.4353,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "cl",
+                    "start": 3088.4353,
+                    "end": 3160.0908,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "k",
+                    "start": 3160.0908,
+                    "end": 3191.8367,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "e",
+                    "start": 3191.8367,
+                    "end": 3502.9478,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "cl",
+                    "start": 3502.9478,
+                    "end": 3578.2312,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "k",
+                    "start": 3578.2312,
+                    "end": 3603.6282,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "a",
+                    "start": 3603.6282,
+                    "end": 4053.5146,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "EP",
+                    "start": 4053.5146,
+                    "end": 4363.7188,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_かかきかくけか.wav",
+                    "name": "pau",
+                    "start": 4363.7188,
+                    "end": 5124.535,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 21,
             "extras": {
             },
             "rawFilePath": "lab\\_かかきかくけか.lab",
@@ -691,7 +4019,71 @@
                     "sample": "_ががぎがぐげが.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 999.5465,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "k",
+                    "start": 999.5465,
+                    "end": 1031.2925,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "a",
+                    "start": 1031.2925,
+                    "end": 1346.9387,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "cl",
+                    "start": 1346.9387,
+                    "end": 1410.4308,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "k",
+                    "start": 1410.4308,
+                    "end": 1435.8276,
                     "points": [
                     ],
                     "extras": [
@@ -701,10 +4093,298 @@
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "a",
+                    "start": 1435.8276,
+                    "end": 1772.3356,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "cl",
+                    "start": 1772.3356,
+                    "end": 1846.712,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "k",
+                    "start": 1846.712,
+                    "end": 1873.9229,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "i",
+                    "start": 1873.9229,
+                    "end": 2189.569,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "cl",
+                    "start": 2189.569,
+                    "end": 2267.5737,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "k",
+                    "start": 2267.5737,
+                    "end": 2289.3423,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "a",
+                    "start": 2289.3423,
+                    "end": 2626.7573,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "cl",
+                    "start": 2626.7573,
+                    "end": 2705.669,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "k",
+                    "start": 2705.669,
+                    "end": 2742.8572,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "u",
+                    "start": 2742.8572,
+                    "end": 3063.0386,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "cl",
+                    "start": 3063.0386,
+                    "end": 3142.8572,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "k",
+                    "start": 3142.8572,
+                    "end": 3173.696,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "e",
+                    "start": 3173.696,
+                    "end": 3485.7144,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "cl",
+                    "start": 3485.7144,
+                    "end": 3563.7188,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "k",
+                    "start": 3563.7188,
+                    "end": 3591.8367,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "a",
+                    "start": 3591.8367,
+                    "end": 4177.778,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "EP",
+                    "start": 4177.778,
+                    "end": 4432.653,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ががぎがぐげが.wav",
+                    "name": "pau",
+                    "start": 4432.653,
+                    "end": 5062.041,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 21,
             "extras": {
             },
             "rawFilePath": "lab\\_ががぎがぐげが.lab",
@@ -718,20 +4398,452 @@
                     "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 985.034,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "k",
+                    "start": 985.034,
+                    "end": 1017.6871,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "e",
+                    "start": 1017.6871,
+                    "end": 1300.6803,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "cl",
+                    "start": 1300.6803,
+                    "end": 1385.941,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "k",
+                    "start": 1385.941,
+                    "end": 1426.7573,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "e",
+                    "start": 1426.7573,
+                    "end": 1706.1224,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "cl",
+                    "start": 1706.1224,
+                    "end": 1795.9183,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "k",
+                    "start": 1795.9183,
+                    "end": 1842.1769,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "y",
+                    "start": 1842.1769,
+                    "end": 1867.5737,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "u",
+                    "start": 1867.5737,
+                    "end": 2165.0793,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "cl",
+                    "start": 2165.0793,
+                    "end": 2241.2698,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "k",
+                    "start": 2241.2698,
+                    "end": 2271.202,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "y",
+                    "start": 2271.202,
+                    "end": 2320.1814,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "o",
+                    "start": 2320.1814,
+                    "end": 2581.406,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "cl",
+                    "start": 2581.406,
+                    "end": 2684.8074,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "k",
+                    "start": 2684.8074,
+                    "end": 2710.204,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "y",
+                    "start": 2710.204,
+                    "end": 2760.0908,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "e",
+                    "start": 2760.0908,
+                    "end": 3006.8027,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "cl",
+                    "start": 3006.8027,
+                    "end": 3097.5056,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "k",
+                    "start": 3097.5056,
+                    "end": 3121.9954,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "y",
+                    "start": 3121.9954,
+                    "end": 3165.533,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "o",
+                    "start": 3165.533,
+                    "end": 3437.6416,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "cl",
+                    "start": 3437.6416,
+                    "end": 3537.415,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "k",
+                    "start": 3537.415,
+                    "end": 3566.44,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "y",
+                    "start": 3566.44,
+                    "end": 3609.0703,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "o",
+                    "start": 3609.0703,
+                    "end": 4140.5894,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "EP",
+                    "start": 4140.5894,
+                    "end": 4454.422,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きぇきぇきゅきょきぇきょきょ.wav",
+                    "name": "pau",
+                    "start": 4454.422,
+                    "end": 5062.041,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 26,
             "extras": {
             },
             "rawFilePath": "lab\\_きぇきぇきゅきょきぇきょきょ.lab",
@@ -745,7 +4857,23 @@
                     "sample": "_きききゅきゃきぇききぇ.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 961.45123,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "k",
+                    "start": 961.45123,
+                    "end": 998.63947,
                     "points": [
                     ],
                     "extras": [
@@ -755,10 +4883,410 @@
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "i",
+                    "start": 998.63947,
+                    "end": 1282.5397,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "cl",
+                    "start": 1282.5397,
+                    "end": 1373.2427,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "k",
+                    "start": 1373.2427,
+                    "end": 1403.1746,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "i",
+                    "start": 1403.1746,
+                    "end": 1707.9365,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "cl",
+                    "start": 1707.9365,
+                    "end": 1789.5692,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "k",
+                    "start": 1789.5692,
+                    "end": 1824.0363,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "y",
+                    "start": 1824.0363,
+                    "end": 1863.9456,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "u",
+                    "start": 1863.9456,
+                    "end": 2125.1702,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "cl",
+                    "start": 2125.1702,
+                    "end": 2214.966,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "k",
+                    "start": 2214.966,
+                    "end": 2243.084,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "y",
+                    "start": 2243.084,
+                    "end": 2285.7144,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "a",
+                    "start": 2285.7144,
+                    "end": 2575.0566,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "cl",
+                    "start": 2575.0566,
+                    "end": 2656.6895,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "k",
+                    "start": 2656.6895,
+                    "end": 2692.9705,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "y",
+                    "start": 2692.9705,
+                    "end": 2744.6711,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "e",
+                    "start": 2744.6711,
+                    "end": 3004.0815,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "cl",
+                    "start": 3004.0815,
+                    "end": 3094.7847,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "k",
+                    "start": 3094.7847,
+                    "end": 3123.8096,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "i",
+                    "start": 3123.8096,
+                    "end": 3414.966,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "cl",
+                    "start": 3414.966,
+                    "end": 3523.8096,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "k",
+                    "start": 3523.8096,
+                    "end": 3558.2766,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "y",
+                    "start": 3558.2766,
+                    "end": 3632.653,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "e",
+                    "start": 3632.653,
+                    "end": 4045.3516,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "EP",
+                    "start": 4045.3516,
+                    "end": 4294.7847,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きききゅきゃきぇききぇ.wav",
+                    "name": "pau",
+                    "start": 4294.7847,
+                    "end": 4999.5464,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 25,
             "extras": {
             },
             "rawFilePath": "lab\\_きききゅきゃきぇききぇ.lab",
@@ -772,20 +5300,372 @@
                     "sample": "_ききくかけきけ.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 1004.98865,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "k",
+                    "start": 1004.98865,
+                    "end": 1039.4558,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "i",
+                    "start": 1039.4558,
+                    "end": 1327.8911,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "cl",
+                    "start": 1327.8911,
+                    "end": 1421.3152,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "k",
+                    "start": 1421.3152,
+                    "end": 1448.5261,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "i",
+                    "start": 1448.5261,
+                    "end": 1746.9387,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "cl",
+                    "start": 1746.9387,
+                    "end": 1833.1066,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "k",
+                    "start": 1833.1066,
+                    "end": 1868.4807,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "u",
+                    "start": 1868.4807,
+                    "end": 2175.9636,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "cl",
+                    "start": 2175.9636,
+                    "end": 2256.6895,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "k",
+                    "start": 2256.6895,
+                    "end": 2288.4353,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "a",
+                    "start": 2288.4353,
+                    "end": 2606.8027,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "cl",
+                    "start": 2606.8027,
+                    "end": 2698.4126,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "k",
+                    "start": 2698.4126,
+                    "end": 2715.6462,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "e",
+                    "start": 2715.6462,
+                    "end": 3029.4785,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "cl",
+                    "start": 3029.4785,
+                    "end": 3109.297,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "k",
+                    "start": 3109.297,
+                    "end": 3146.4854,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "i",
+                    "start": 3146.4854,
+                    "end": 3473.0159,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "cl",
+                    "start": 3473.0159,
+                    "end": 3546.4854,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "k",
+                    "start": 3546.4854,
+                    "end": 3585.4875,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "e",
+                    "start": 3585.4875,
+                    "end": 4161.451,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "EP",
+                    "start": 4161.451,
+                    "end": 4449.8867,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_ききくかけきけ.wav",
+                    "name": "pau",
+                    "start": 4449.8867,
+                    "end": 5062.041,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 22,
             "extras": {
             },
             "rawFilePath": "lab\\_ききくかけきけ.lab",
@@ -799,20 +5679,468 @@
                     "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 970.52155,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
-                        "done": false,
+                        "done": true,
                         "star": false,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "k",
+                    "start": 970.52155,
+                    "end": 1004.98865,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "y",
+                    "start": 1004.98865,
+                    "end": 1043.0839,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "a",
+                    "start": 1043.0839,
+                    "end": 1307.0294,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "cl",
+                    "start": 1307.0294,
+                    "end": 1379.5918,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "k",
+                    "start": 1379.5918,
+                    "end": 1415.873,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "y",
+                    "start": 1415.873,
+                    "end": 1463.0386,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "a",
+                    "start": 1463.0386,
+                    "end": 1735.1473,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "cl",
+                    "start": 1735.1473,
+                    "end": 1827.6644,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "k",
+                    "start": 1827.6644,
+                    "end": 1859.4104,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "i",
+                    "start": 1859.4104,
+                    "end": 2141.4966,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "cl",
+                    "start": 2141.4966,
+                    "end": 2240.3628,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "k",
+                    "start": 2240.3628,
+                    "end": 2270.2947,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "y",
+                    "start": 2270.2947,
+                    "end": 2314.7393,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "a",
+                    "start": 2314.7393,
+                    "end": 2596.8254,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "cl",
+                    "start": 2596.8254,
+                    "end": 2687.5283,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "k",
+                    "start": 2687.5283,
+                    "end": 2712.018,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "y",
+                    "start": 2712.018,
+                    "end": 2751.0205,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "u",
+                    "start": 2751.0205,
+                    "end": 3017.687,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "cl",
+                    "start": 3017.687,
+                    "end": 3093.8774,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "k",
+                    "start": 3093.8774,
+                    "end": 3128.3447,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "y",
+                    "start": 3128.3447,
+                    "end": 3184.5806,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "e",
+                    "start": 3184.5806,
+                    "end": 3421.3152,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "cl",
+                    "start": 3421.3152,
+                    "end": 3528.3447,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "k",
+                    "start": 3528.3447,
+                    "end": 3560.9978,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "y",
+                    "start": 3560.9978,
+                    "end": 3601.814,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "a",
+                    "start": 3601.814,
+                    "end": 4053.5146,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "EP",
+                    "start": 4053.5146,
+                    "end": 4338.322,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "_きゃきゃききゃきゅきぇきゃ.wav",
+                    "name": "pau",
+                    "start": 4338.322,
+                    "end": 5062.041,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
                 }
             ],
-            "currentIndex": 0,
+            "currentIndex": 27,
             "extras": {
             },
             "rawFilePath": "lab\\_きゃきゃききゃきゅきぇきゃ.lab",
@@ -826,17 +6154,17 @@
                     "sample": "_きゅきゅききょきゃきょき.wav",
                     "name": "pau",
                     "start": 0.0,
-                    "end": 0.0,
+                    "end": 5062.041,
                     "points": [
                     ],
                     "extras": [
                     ],
                     "notes": {
                         "done": false,
-                        "star": false,
+                        "star": true,
                         "tag": ""
                     },
-                    "needSync": true
+                    "needSync": false
                 }
             ],
             "currentIndex": 0,
@@ -5031,7 +10359,7 @@
             "entryFilter": null
         }
     ],
-    "currentModuleIndex": 0,
+    "currentModuleIndex": 22,
     "autoExport": false,
     "entryFilter": null
 }
