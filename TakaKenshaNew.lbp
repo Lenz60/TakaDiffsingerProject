@@ -4341,7 +4341,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 255,
+            "currentIndex": 246,
             "extras": {
             },
             "rawFilePath": "lab\\1.lab",
@@ -11057,7 +11057,7 @@
                 },
                 {
                     "sample": "10.wav",
-                    "name": "n",
+                    "name": "e",
                     "start": 61816.777,
                     "end": 62217.688,
                     "points": [
@@ -11089,7 +11089,7 @@
                 },
                 {
                     "sample": "10.wav",
-                    "name": "pau",
+                    "name": "o",
                     "start": 62252.152,
                     "end": 62469.84,
                     "points": [
@@ -13248,7 +13248,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 16,
+            "currentIndex": 555,
             "extras": {
             },
             "rawFilePath": "lab\\10.lab",
@@ -14924,7 +14924,7 @@
                 },
                 {
                     "sample": "11.wav",
-                    "name": "pau",
+                    "name": "a",
                     "start": 18897.959,
                     "end": 18973.242,
                     "points": [
@@ -16924,9 +16924,25 @@
                 },
                 {
                     "sample": "11.wav",
-                    "name": "pau",
+                    "name": "SP",
                     "start": 38047.168,
-                    "end": 38296.08,
+                    "end": 38145.125,
+                    "points": [
+                    ],
+                    "extras": [
+                    ],
+                    "notes": {
+                        "done": true,
+                        "star": false,
+                        "tag": ""
+                    },
+                    "needSync": false
+                },
+                {
+                    "sample": "11.wav",
+                    "name": "pau",
+                    "start": 38145.125,
+                    "end": 38172.336,
                     "points": [
                     ],
                     "extras": [
@@ -16939,7 +16955,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 228,
+            "currentIndex": 229,
             "extras": {
             },
             "rawFilePath": "lab\\11.lab",
@@ -17015,7 +17031,7 @@
                 },
                 {
                     "sample": "12.wav",
-                    "name": "pau",
+                    "name": "i",
                     "start": 887.0748,
                     "end": 1004.98865,
                     "points": [
@@ -18998,7 +19014,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 126,
+            "currentIndex": 127,
             "extras": {
             },
             "rawFilePath": "lab\\12.lab",
@@ -19410,7 +19426,7 @@
                 },
                 {
                     "sample": "13.wav",
-                    "name": "pau",
+                    "name": "u",
                     "start": 3346.0317,
                     "end": 3891.1565,
                     "points": [
@@ -21554,7 +21570,7 @@
                 },
                 {
                     "sample": "13.wav",
-                    "name": "pau",
+                    "name": "n",
                     "start": 28156.918,
                     "end": 28230.385,
                     "points": [
@@ -22690,7 +22706,7 @@
                 },
                 {
                     "sample": "13.wav",
-                    "name": "pau",
+                    "name": "y",
                     "start": 39738.777,
                     "end": 39853.97,
                     "points": [
@@ -22836,7 +22852,7 @@
                     "sample": "13.wav",
                     "name": "SP",
                     "start": 44321.992,
-                    "end": 44499.773,
+                    "end": 44458.957,
                     "points": [
                     ],
                     "extras": [
@@ -22851,8 +22867,8 @@
                 {
                     "sample": "13.wav",
                     "name": "pau",
-                    "start": 44499.773,
-                    "end": 44521.54,
+                    "start": 44458.957,
+                    "end": 44487.98,
                     "points": [
                     ],
                     "extras": [
@@ -22865,7 +22881,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 113,
+            "currentIndex": 240,
             "extras": {
             },
             "rawFilePath": "lab\\13.lab",
@@ -24445,9 +24461,9 @@
                 },
                 {
                     "sample": "14.wav",
-                    "name": "pau",
+                    "name": "a",
                     "start": 15268.027,
-                    "end": 15390.477,
+                    "end": 15400.453,
                     "points": [
                     ],
                     "extras": [
@@ -24462,7 +24478,7 @@
                 {
                     "sample": "14.wav",
                     "name": "w",
-                    "start": 15390.477,
+                    "start": 15400.453,
                     "end": 15475.737,
                     "points": [
                     ],
@@ -24796,7 +24812,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 118,
+            "currentIndex": 119,
             "extras": {
             },
             "rawFilePath": "lab\\14.lab",
@@ -29534,7 +29550,7 @@
                 },
                 {
                     "sample": "17.wav",
-                    "name": "pau",
+                    "name": "m",
                     "start": 10516.1,
                     "end": 10573.242,
                     "points": [
@@ -32941,7 +32957,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 283,
+            "currentIndex": 284,
             "extras": {
             },
             "rawFilePath": "lab\\17.lab",
@@ -33161,7 +33177,7 @@
                 },
                 {
                     "sample": "18.wav",
-                    "name": "pau",
+                    "name": "i",
                     "start": 1977.3242,
                     "end": 2331.973,
                     "points": [
@@ -33449,7 +33465,7 @@
                 },
                 {
                     "sample": "18.wav",
-                    "name": "pau",
+                    "name": "n",
                     "start": 4902.494,
                     "end": 4953.288,
                     "points": [
@@ -33513,7 +33529,7 @@
                 },
                 {
                     "sample": "18.wav",
-                    "name": "pau",
+                    "name": "k",
                     "start": 5384.127,
                     "end": 5420.408,
                     "points": [
@@ -34697,7 +34713,7 @@
                 },
                 {
                     "sample": "18.wav",
-                    "name": "pau",
+                    "name": "o",
                     "start": 15356.916,
                     "end": 15768.707,
                     "points": [
@@ -35737,7 +35753,7 @@
                 },
                 {
                     "sample": "18.wav",
-                    "name": "pau",
+                    "name": "r",
                     "start": 23380.498,
                     "end": 23405.896,
                     "points": [
@@ -36121,7 +36137,7 @@
                 },
                 {
                     "sample": "18.wav",
-                    "name": "pau",
+                    "name": "u",
                     "start": 25955.555,
                     "end": 26321.09,
                     "points": [
@@ -36489,7 +36505,7 @@
                 },
                 {
                     "sample": "18.wav",
-                    "name": "pau",
+                    "name": "o",
                     "start": 28638.549,
                     "end": 28682.086,
                     "points": [
@@ -36777,7 +36793,7 @@
                 },
                 {
                     "sample": "18.wav",
-                    "name": "pau",
+                    "name": "o",
                     "start": 30780.953,
                     "end": 31036.734,
                     "points": [
@@ -37209,7 +37225,7 @@
                 },
                 {
                     "sample": "18.wav",
-                    "name": "pau",
+                    "name": "o",
                     "start": 34039.004,
                     "end": 34201.363,
                     "points": [
@@ -37752,7 +37768,7 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 298,
+            "currentIndex": 299,
             "extras": {
             },
             "rawFilePath": "lab\\18.lab",
@@ -79270,7 +79286,7 @@
                 },
                 {
                     "sample": "8(power).wav",
-                    "name": "pau",
+                    "name": "m",
                     "start": 1798.6394,
                     "end": 1860.3175,
                     "points": [
@@ -80086,7 +80102,7 @@
                 },
                 {
                     "sample": "8(power).wav",
-                    "name": "pau",
+                    "name": "t",
                     "start": 10639.456,
                     "end": 10663.038,
                     "points": [
@@ -81254,7 +81270,7 @@
                 },
                 {
                     "sample": "8(power).wav",
-                    "name": "pau",
+                    "name": "y",
                     "start": 20668.48,
                     "end": 20720.182,
                     "points": [
@@ -83926,7 +83942,7 @@
                 },
                 {
                     "sample": "8(power).wav",
-                    "name": "pau",
+                    "name": "k",
                     "start": 43740.59,
                     "end": 43788.66,
                     "points": [
@@ -84230,7 +84246,7 @@
                 },
                 {
                     "sample": "8(power).wav",
-                    "name": "pau",
+                    "name": "o",
                     "start": 46759.184,
                     "end": 46908.844,
                     "points": [
@@ -85190,7 +85206,7 @@
                 },
                 {
                     "sample": "8(power).wav",
-                    "name": "pau",
+                    "name": "o",
                     "start": 54644.902,
                     "end": 54746.49,
                     "points": [
@@ -85702,7 +85718,7 @@
                 },
                 {
                     "sample": "8(power).wav",
-                    "name": "pau",
+                    "name": "t",
                     "start": 59395.918,
                     "end": 59430.383,
                     "points": [
@@ -86918,9 +86934,9 @@
                 },
                 {
                     "sample": "8(power).wav",
-                    "name": "pau",
+                    "name": "g",
                     "start": 69807.71,
-                    "end": 69859.414,
+                    "end": 69866.664,
                     "points": [
                     ],
                     "extras": [
@@ -86935,7 +86951,7 @@
                 {
                     "sample": "8(power).wav",
                     "name": "a",
-                    "start": 69859.414,
+                    "start": 69866.664,
                     "end": 70018.14,
                     "points": [
                     ],
@@ -87990,7 +88006,7 @@
                 },
                 {
                     "sample": "8(power).wav",
-                    "name": "pau",
+                    "name": "k",
                     "start": 80840.82,
                     "end": 80871.66,
                     "points": [
@@ -88832,14 +88848,14 @@
                     "needSync": false
                 }
             ],
-            "currentIndex": 31,
+            "currentIndex": 32,
             "extras": {
             },
             "rawFilePath": "lab\\9.lab",
             "entryFilter": null
         }
     ],
-    "currentModuleIndex": 12,
+    "currentModuleIndex": 17,
     "autoExport": false,
     "entryFilter": null
 }
