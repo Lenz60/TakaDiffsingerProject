@@ -1,0 +1,21 @@
+{
+    "name": "_こくんかんく.wav",
+    "file": "wav/_こくんかんく.wav",
+    "convertedFile": null,
+    "moduleName": "_こくんかんく",
+    "sampleRate": 44100.0,
+    "maxSampleRate": 44100,
+    "normalize": false,
+    "normalizeRatio": null,
+    "channels": 1,
+    "length": 223236,
+    "lengthMillis": 5062.041,
+    "chunkSize": 223236,
+    "chunkCount": 1,
+    "hasSpectrogram": true,
+    "hasPower": false,
+    "powerChannels": 1,
+    "hasFundamental": false,
+    "lastModified": 1759649468319,
+    "algorithmVersion": 4
+}

@@ -1,0 +1,21 @@
+{
+    "name": "_しぇしぇしゅしょしぇしょしょ.wav",
+    "file": "wav/_しぇしぇしゅしょしぇしょしょ.wav",
+    "convertedFile": null,
+    "moduleName": "_しぇしぇしゅしょしぇしょしょ",
+    "sampleRate": 44100.0,
+    "maxSampleRate": 44100,
+    "normalize": false,
+    "normalizeRatio": null,
+    "channels": 1,
+    "length": 220480,
+    "lengthMillis": 4999.5464,
+    "chunkSize": 220480,
+    "chunkCount": 1,
+    "hasSpectrogram": true,
+    "hasPower": false,
+    "powerChannels": 1,
+    "hasFundamental": false,
+    "lastModified": 1759649468334,
+    "algorithmVersion": 4
+}
